@@ -48,7 +48,7 @@ No. Every coin has a fixed 1B supply, and the mint authority is switched off in 
 
 <summary>Why can't I buy more than 3%?</summary>
 
-While a coin is bonding, no wallet can buy past 3% of the supply on the curve, so one whale can't scoop the coin. The limit lifts once the coin is on Raydium. See [Buying and selling](../trading/buying-and-selling.md#the-3-limit-while-bonding).
+No wallet can get more than 3% of the supply before a coin bonds, whether in the line, with the creator's opening buy or on the curve, so one whale can't scoop the coin. In the line that means about 1.9 SOL per wallet. The limit lifts once the coin is on Raydium. See [Buying and selling](../trading/buying-and-selling.md#the-3-limit-while-bonding).
 
 </details>
 

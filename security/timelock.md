@@ -29,7 +29,7 @@ Some limits are written into the program's code, so no config change can ever go
 | Bonding fee | 2 SOL at most (currently 1 SOL) |
 | Line length | 3,000 slots at most (about 20 minutes) |
 | Cover charge length | 3,000 slots at most |
-| Wallet limit while bonding | 3% of supply (fixed in code) |
+| Wallet limit while bonding | 3% of supply, for line commits, opening buys and curve buys (fixed in code) |
 | Fees sent back into the pool | a quarter of Velvet's pool-fee share (fixed in code) |
 | Timelock | 30 days at most |
 
@@ -47,8 +47,8 @@ The **How it works** page on velvetlaunch.xyz always shows the live values, read
 | Normal fee | 1% (¼ to holders) |
 | Cover charge | 50% → 1% over 150 slots (≈1 minute) |
 | Line length | 10 to 750 slots (≈4 s to 5 min) |
-| Line commit limit | 5 SOL per wallet |
-| Creator opening buy | up to 2 SOL |
+| Line commit limit | 5 SOL per wallet, and never more than buys 3% of the supply (about 1.9 SOL) |
+| Creator opening buy | up to 2 SOL, and never more than 3% of the supply (about 1.9 SOL) |
 | Guest-list minimum | up to 100 SOL |
 | Creator lock | up to 30 days |
 | Curve | 70% of supply, bonds at ≈100 SOL |

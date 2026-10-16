@@ -11,7 +11,7 @@ Every coin on Velvet opens with a **line**. While it's open, nobody can buy the 
 ## Join the line
 
 1. Open a coin marked **In line**.
-2. Enter how much SOL to commit, up to **5 SOL per wallet**.
+2. Enter how much SOL to commit, up to **about 1.9 SOL per wallet** (see below).
 3. Press **Get in line** and approve the transaction in your wallet.
 
 You can add more with **Add to my spot**, as long as your total stays under the limit. When you join doesn't matter: a commit in the last second gets exactly the same price as one in the first.
@@ -25,6 +25,12 @@ Then press **Claim** on the coin page to move your tokens into your wallet. You 
 <figure><img src="../.gitbook/assets/doors-open.png" alt="Claiming tokens after the doors open"><figcaption><p>The doors are open: claim your share</p></figcaption></figure>
 
 If the line brings in more SOL than the whole curve can take, the curve sells out on the spot and the SOL left over is shared back pro rata: you get it with your tokens when you claim.
+
+## The 3% limit in the line
+
+No wallet can get more than **3% of the supply** before a coin bonds, and that includes the line. Velvet checks the worst case: what your whole commit would buy if you were alone in the line. At the starting price, about **1.9 SOL** buys 3%, so that's the most one wallet can commit. If other people join, the line price goes up and your share ends up smaller, never bigger.
+
+For the creator, tokens from their opening buy count too, so they can commit less. The commit box shows **Wallet limit left** for your wallet.
 
 ## If the line comes up short
 

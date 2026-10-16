@@ -43,6 +43,6 @@ A bigger pool share means deeper liquidity on Raydium after bonding: the coin st
 
 ## The limits while bonding
 
-* **3% per wallet:** no curve buy can take a wallet above 30M tokens. See [Buying and selling](../trading/buying-and-selling.md#the-3-limit-while-bonding).
+* **3% per wallet:** no wallet can get above 30M tokens, in the line, with the opening buy or on the curve. See [Buying and selling](../trading/buying-and-selling.md#the-3-limit-while-bonding).
 * **Fees:** 1% per trade, with the [cover charge](cover-charge.md) just after the open.
 * **Liquidity:** the SOL on the curve stays in the program's account. It only leaves through trades by the curve's rules, or into the Raydium pool when the coin bonds. Nobody can withdraw it.

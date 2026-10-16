@@ -17,13 +17,13 @@ Velvet runs on a Solana program (a smart contract). These rules are written into
 * **The curve is locked while the line is open.** Nobody can buy before the doors open, not even the creator.
 * **One price for the line.** The whole line is filled as one buy, and each wallet's share is exactly proportional to its SOL.
 * **Refunds are guaranteed.** If the line misses the guest-list minimum, every lamport committed can be claimed back.
-* **The creator's buy is limited and visible.** At most 2 SOL, inside the launch transaction, at the start price, and locked if the creator chose to.
+* **The creator's buy is limited and visible.** At most 3% of the supply (about 1.9 SOL), inside the launch transaction, at the start price, and locked if the creator chose to.
 * **Free launches can't be forged.** The program checks the creator's signature on-chain against the exact coin being created.
 
 ## Trading
 
 * **Fees are capped.** The program will never charge more than its hard limits, whatever the settings say.
-* **3% per wallet while bonding.** No curve buy can take a wallet past 30M tokens.
+* **3% per wallet while bonding.** No line commit, opening buy or curve buy can give a wallet more than 30M tokens.
 * **Slippage protection.** Every trade states the worst price it accepts; if the price moved further, the trade fails and nothing is spent.
 
 ## Bonding

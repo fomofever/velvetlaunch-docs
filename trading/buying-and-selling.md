@@ -26,9 +26,9 @@ Once a coin's doors open, you trade it from the box on the right of its coin pag
 
 ## The 3% limit while bonding
 
-While a coin is bonding, no wallet can buy past **3% of the supply** (30,000,000 tokens) on the curve. The trade box shows how much more you can buy under **Wallet limit while bonding**. The program checks this on every curve buy, so one whale can't scoop up the coin before it bonds.
+While a coin is bonding, no wallet can buy past **3% of the supply** (30,000,000 tokens) on the curve. The trade box shows how much more you can buy under **Wallet limit while bonding**. The program checks this on every curve buy, so one whale can't scoop up the coin before it bonds. The same limit applies to [line commits](getting-in-line.md#the-3-limit-in-the-line) and the creator's [opening buy](../launching/opening-buy.md).
 
-Tokens already in your wallet count toward it, including what you claimed from the line. A buy that would take you over the limit is rejected, and nothing is spent. The limit lifts once the coin is on Raydium.
+Tokens in your wallet count toward it, and so do tokens you're still owed: your unclaimed share from the line and, for the creator, the opening-buy bag that's still locked. Waiting to claim doesn't get you around it. A buy that would take you over the limit is rejected, and nothing is spent. The limit lifts once the coin is on Raydium.
 
 ## The cover charge
 

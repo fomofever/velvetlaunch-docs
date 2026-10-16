@@ -8,7 +8,7 @@ With an **instant launch** (not free), you can buy some of your own coin **insid
 
 ## The opening buy
 
-* Up to **2 SOL**, at the coin's **starting price**, the lowest it will ever be.
+* Up to **about 1.9 SOL**, at the coin's **starting price**, the lowest it will ever be. That buys just under **3% of the supply**, the same limit every wallet has before the coin bonds.
 * It happens in the same transaction that creates the coin, so nobody can get in front of you, and you don't compete with your own line.
 * It's shown publicly on the coin page and preview as the **creator bag**.
 

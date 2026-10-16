@@ -23,7 +23,7 @@ The [line](../how-it-works/the-line.md) is the opening window when everyone comm
 
 ## 3. Optional: opening buy and lock
 
-You can buy up to **2 SOL** of your own coin inside the launch transaction, at the starting price, so nobody gets in before you. You can lock it for up to **30 days**. See [Opening buy and lock](opening-buy.md).
+You can buy up to **about 1.9 SOL** (3% of the supply) of your own coin inside the launch transaction, at the starting price, so nobody gets in before you. You can lock it for up to **30 days**. See [Opening buy and lock](opening-buy.md).
 
 ## 4. Optional: guest-list minimum
 

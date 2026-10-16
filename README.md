@@ -16,7 +16,7 @@ After the doors open, the coin trades on Velvet's bonding curve. When the curve 
 | --- | --- |
 | **One price at the open** | Everyone in the line pays the same average price, in proportion to the SOL they put in. Landing in the first slot gets you nothing. |
 | **Cover charge for flippers** | Right after the doors open, the trading fee starts at 50% and falls to 1% within about a minute. Everything above the normal fee goes to the coin's holders. |
-| **No whales while bonding** | No wallet can buy past 3% of the supply on the curve. |
+| **No whales while bonding** | No wallet can get more than 3% of the supply before the coin bonds: not in the line, not with the opening buy, not on the curve. |
 | **Holders get paid** | Every hour, each coin's holder pool pays its holders in SOL, weighted by how long they've held. |
 | **Liquidity locked for good** | When a coin bonds, 100% of its Raydium LP goes into Raydium's locker. Nobody can pull it, Velvet included. |
 | **Launch for free** | Creators can launch by signing a message. The first buyer puts the coin on-chain. |
