@@ -24,7 +24,7 @@ Because bots are faster than people. With a line, being first is worthless: ever
 
 <summary>Can I launch with no SOL?</summary>
 
-Yes. Choose **Free** on the launch page and just sign a message. Your coin waits on the board until someone gets in line; their transaction puts it on-chain and pays the ≈0.022 SOL setup. Your signature only works for that exact coin, once, and expires after 7 days. See [Free launches](../launching/free-launches.md).
+Yes. Choose **Free launch** on the launch page and just sign a message. Your coin waits on the board until someone gets in line; their transaction puts it on-chain and pays the ≈0.022 SOL setup. Your signature only works for that exact coin, once, and expires after 7 days. See [Free launches](../launching/free-launches.md).
 
 </details>
 
@@ -49,6 +49,14 @@ No. Every coin has a fixed 1B supply, and the mint authority is switched off in 
 <summary>Why can't I buy more than 3%?</summary>
 
 No wallet can get more than 3% of the supply before a coin bonds, whether in the line, with the creator's opening buy or on the curve, so one whale can't scoop the coin. In the line that means about 1.9 SOL per wallet. The limit lifts once the coin is on Raydium. See [Buying and selling](../trading/buying-and-selling.md#the-3-limit-while-bonding).
+
+</details>
+
+<details>
+
+<summary>Why can I only put about 1.9 SOL in the line?</summary>
+
+Because no wallet can get more than 3% of the supply before a coin bonds. Velvet checks the worst case, your whole commit buying alone at the opening price, and about 1.9 SOL buys 3% there. If more people join, the price rises and your share ends up smaller. For the creator, their opening-buy bag counts too. See [Getting in line](../trading/getting-in-line.md#the-3-limit-in-the-line).
 
 </details>
 
