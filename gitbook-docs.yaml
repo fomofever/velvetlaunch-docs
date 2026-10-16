@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Velvet Launch Docs
+  structure:
+    - type: space
+      key: velvet-launch-docs
+      title: Velvet Launch
+      path: docs
+      default: true
+      content:
+        directory: ./
+        language: en
