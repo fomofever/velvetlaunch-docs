@@ -6,7 +6,7 @@ description: Every fee on Velvet, and where it goes.
 
 | When | Fee | Goes to |
 | --- | --- | --- |
-| **Launching a coin** | Free, or ≈0.022 SOL | Nobody. It's Solana's account rent. Free launch: the first buyer pays it. Launch now: you pay it. |
+| **Launching a coin** | Free, or ≈0.022 SOL | Nobody. It's Solana's account rent. Free launch: the first buyer covers it. Instant launch: you cover it. |
 | **Joining a line** | 1%, taken when the line settles | ¼ to the coin's holders, ¾ to Velvet. Not taken if the line ends short. |
 | **Curve trade** (buy or sell) | 1% | ¼ (0.25%) to the coin's holders, ¾ (0.75%) to Velvet |
 | **Cover charge** right after the open | up to 50%, falling to 1% in about a minute | Everything above 1% goes to the coin's holders |

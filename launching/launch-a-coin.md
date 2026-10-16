@@ -31,9 +31,9 @@ Set the least SOL the line has to raise, up to **100 SOL**. If the line ends bel
 
 ## 5. Choose how it goes live
 
-<figure><img src="../.gitbook/assets/launch-mode.png" alt="Free or Now" width="560"><figcaption><p>How it goes live</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/launch-mode.png" alt="Free launch or Instant launch" width="560"><figcaption><p>How it goes live</p></figcaption></figure>
 
-| | **Free** · first buyer deploys | **Now** · you pay ≈0.022 SOL |
+| | **Free launch** · no SOL needed | **Instant launch** · ≈0.022 SOL |
 | --- | --- | --- |
 | What you do | Sign a message. No transaction. | Send the launch transaction. |
 | Cost to you | **0 SOL** | ≈0.022 SOL of account setup, plus any opening buy |
@@ -45,7 +45,7 @@ See [Free launches](free-launches.md) for how the free option works.
 
 ## 6. Launch and share
 
-Press **Launch**. Your wallet asks you to sign (Free) or approve the transaction (Now). Your coin is on the board as soon as it's done. Share the link while the line is open: everyone who joins gets the same price. See [Sharing a coin](../trading/sharing.md).
+Press **Launch**. Your wallet asks you to sign (free launch) or approve the transaction (instant launch). Your coin is on the board as soon as it's done. Share the link while the line is open: everyone who joins gets the same price. See [Sharing a coin](../trading/sharing.md).
 
 {% hint style="info" %}
 None of the setup cost goes to Velvet. It's the rent Solana charges to create the coin's accounts.

@@ -4,7 +4,7 @@ description: The creator's opening buy, and locking it so holders know you're st
 
 # Opening buy and lock
 
-When you **launch now** (not free), you can buy some of your own coin **inside the launch transaction**.
+With an **instant launch** (not free), you can buy some of your own coin **inside the launch transaction**.
 
 ## The opening buy
 
