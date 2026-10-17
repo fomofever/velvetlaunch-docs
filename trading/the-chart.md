@@ -27,6 +27,9 @@ Open **Indicators** to turn these on or off (your choice is remembered):
 * **Bonding line**: the price or market cap where the coin bonds, as a dashed gold line. For a bonded coin it's the level where it bonded, with a **Bonded** marker on that candle.
 * **Your average entry**: the average price your buys filled at.
 * **Your average exit**: the average price your sells filled at.
+* **Your initials**: the level where what you hold is worth 2× what you still have in, so you can see when you'll be able to [take your initials out](your-position.md#take-initials-out). Shown until you get there.
+
+Your entry, exit and initials lines only appear while you have a position open (tokens in your wallet, or a line spot not yet claimed). Sell everything and they go away.
 
 Lines far outside the current view are named under the chart instead (for example "Bonds at $35.0K, 5.1× from here"), so they never squash the candles.
 

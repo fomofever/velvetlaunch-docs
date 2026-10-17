@@ -14,7 +14,7 @@ With your wallet connected, each coin page shows **Your position** under the tra
 | **If you sold it all at once** | What one sell of everything would actually return. A big sell moves the price down as it fills and the sell fee comes off, so this is lower than "Worth now". Smaller sells get closer to the market price. |
 | **Put in** | Everything you paid for this coin, fees included: buys, your line spot, an opening buy. |
 | **Taken out** | Everything your sells have returned. |
-| **Still in** | Put in minus taken out. At 0 your initials are out, and what you still hold is free. |
+| **Still in** | The SOL you haven't got back yet: put in minus taken out. At 0 your initials are out, and what you still hold is free. Shown only while you hold tokens; once you've sold everything, Total result tells the story. |
 | **Hold-streak rewards** | What this coin's holder pool has paid to your wallet. |
 | **Total result** | Worth now + taken out − put in + rewards. |
 
