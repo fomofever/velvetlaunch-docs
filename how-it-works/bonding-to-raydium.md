@@ -13,7 +13,7 @@ When a coin's bonding curve sells out (about **100 SOL** raised), the coin **bon
 3. The program creates a Raydium CPMM pool with the rest of the curve's SOL and the **30% of the supply** kept aside for it, priced where the curve ended.
 4. **100% of the pool's LP is locked** in Raydium's own locker, permanently.
 
-Anyone can send these transactions once the curve is full, and Velvet's servers do it automatically within moments. The program decides where everything goes; whoever sends the transaction can't change it.
+Anyone can send these transactions once the curve is full, and Velvet does it automatically within moments. The program decides where everything goes; whoever sends the transaction can't change it.
 
 <figure><img src="../.gitbook/assets/coin-bonded.png" alt="A bonded coin"><figcaption><p>A bonded coin trades on its Raydium pool</p></figcaption></figure>
 

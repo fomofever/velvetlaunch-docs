@@ -37,4 +37,4 @@ If the creator wants their own coin, they can make an [opening buy](../launching
 
 ## Who opens the doors?
 
-When the timer ends, anyone can send the transaction that settles the line, and Velvet's servers do it automatically. Settling only follows the program's rules: nobody can change the price or the shares.
+When the timer ends, anyone can send the transaction that settles the line, and Velvet does it automatically. Settling only follows the program's rules: nobody can change the price or the shares.

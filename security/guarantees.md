@@ -4,7 +4,7 @@ description: The rules Velvet's on-chain program enforces for every coin.
 
 # What the program guarantees
 
-Velvet runs on a Solana program (a smart contract). These rules are written into its code, and every transaction on Velvet has to pass them. No server, admin or creator can skip them.
+Velvet runs on a Solana program (a smart contract). These rules are written into its code, and every transaction on Velvet has to pass them. No admin or creator can skip them.
 
 ## The coin
 

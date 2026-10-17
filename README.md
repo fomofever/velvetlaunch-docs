@@ -22,7 +22,7 @@ After the doors open, the coin trades on Velvet's bonding curve. When the curve 
 | **Launch for free** | Creators can launch by signing a message. The first buyer puts the coin on-chain. |
 | **Fixed supply** | Every coin has exactly 1,000,000,000 tokens and minting is switched off in the launch transaction. |
 
-All of this is enforced by Velvet's on-chain program, not by a server. See [What the program guarantees](security/guarantees.md).
+All of this is enforced by Velvet's on-chain program. See [What the program guarantees](security/guarantees.md).
 
 ## Where to start
 
