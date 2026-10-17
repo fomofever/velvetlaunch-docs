@@ -138,7 +138,7 @@ On each coin page, **Your position** compares everything you put in (fees includ
 
 ## What is "Take initials out"?
 
-Each buy is tracked on its own. When one buy is worth 2× what it cost (1 SOL in, worth 2 SOL), one tap sells exactly that 1 SOL back and the rest of that buy is free. The sell can't return less than your initials. See [Your position](../trading/your-position.md#take-initials-out).
+All your buys count together. When what you hold is worth 2× what you still have in (1 SOL in, worth 2 SOL), one tap sells exactly that 1 SOL back and the rest is free. Until then, your position box shows how close you are and the market cap where it happens, and the chart has a Your initials line there. The sell can't return less than your initials. See [Your position](../trading/your-position.md#take-initials-out).
 
 ## What are the lines on the chart?
 

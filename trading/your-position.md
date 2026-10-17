@@ -22,13 +22,13 @@ Network fees (a fraction of a cent per transaction) and refundable account depos
 
 ## Take initials out
 
-Every buy is tracked on its own, under **Your buys** in the Your position box. When one buy's tokens are worth **2×** what that buy cost, its **Take initials** button sells exactly that SOL back to you and leaves the rest of that buy in your wallet for free.
+All your buys count together as one position. When everything you hold is worth **2×** what you **still have in** (put in minus taken out), the **Take initials out** button sells exactly that SOL back to you and the rest of your bag stays in your wallet for free.
 
-* Buy 1 SOL; when that buy is worth 2 SOL, take initials: you get 1 SOL back and keep tokens worth about 1 SOL, free.
-* Your other buys don't count towards it, and each new buy starts its own count from what it cost.
+* Buy 1 SOL, then another 1 SOL: you have 2 SOL in. When your holding is worth 4 SOL, take initials: you get 2 SOL back and keep tokens worth about 2 SOL, free.
+* **You always know when.** Until you're there, the box shows how far you are (for example *1.40×*, with a bar to 2×) and the exact market cap and price where your initials come out, with how far that is from now. The chart draws a **Your initials** line at that level (turn it off under **Indicators**).
+* The moment you reach 2×, the button appears, an **Initials** quick pick shows on the Sell tab, and you get a one-time alert.
 * The amount includes the sell fee and price impact, so you really receive your initials, and the sell can't return less.
-* Each buy shows how close it is to 2×; once taken it reads **initials out**, with what's left of it, free.
-* Ordinary sells come out of your oldest buys first. When you take initials from a buy, Velvet records which buy that sell was for (after checking the sell on chain), so the right buy is marked on every device.
+* After it's done, *Still in* reads **0 · initials out** and everything you hold is free. A new buy adds to *Still in* again, and the 2× target moves with it.
 
 ## Sell by SOL amount
 
