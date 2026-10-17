@@ -32,6 +32,7 @@ Some limits are written into the program's code, so no config change can ever go
 | Wallet limit while bonding | 3% of supply, for line commits, opening buys and curve buys (fixed in code) |
 | Fees sent back into the pool | a quarter of Velvet's pool-fee share (fixed in code) |
 | Timelock | 30 days at most |
+| Permanent storage fee | 0.001 SOL per coin at most (currently 0.0001 SOL). Because it's capped this low, the admin can change it without the timelock |
 
 ## What a change affects
 
