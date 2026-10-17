@@ -131,3 +131,16 @@ Not yet. It has its own test suite, a fuzzing campaign and two security reviews 
 No. Velvet Launch (velvetlaunch.xyz) is an independent Solana launchpad. It has no connection to Velvet Capital or velvet.capital, and no token of theirs is involved here.
 
 </details>
+
+## How is my profit worked out?
+
+On each coin page, **Your position** compares everything you put in (fees included) with everything you've taken out, plus what your tokens are worth at the current market price and any hold-streak rewards. See [Your position](../trading/your-position.md).
+
+## What is "Take initials out"?
+
+A one-tap sell of exactly enough tokens to get back what you put in, so the rest you hold is free. It only appears when you're in profit, and the sell can't return less than your initials. See [Your position](../trading/your-position.md#take-initials-out).
+
+## What are the lines on the chart?
+
+The dashed gold line is where the coin bonds; the green and red lines are your average entry and exit (fill prices). Turn them on or off under **Indicators**. See [The chart](../trading/the-chart.md).
+
