@@ -22,8 +22,13 @@ Network fees (a fraction of a cent per transaction) and refundable account depos
 
 ## Take initials out
 
-When you're in profit, **Take initials out** sells exactly enough tokens to get back what you still have in, fees and price impact included, and leaves the rest in your wallet for free. It's in the Your position box, and as the **Initials** quick-pick on the Sell tab.
+Once your bag is worth **2×** what you still have in, **Take initials out** sells exactly that amount of SOL back to you, and leaves the rest in your wallet for free. Put in 1 SOL, bag worth 2 SOL: one tap gets your 1 SOL back, and you keep tokens worth about 1 SOL for free. It's in the Your position box, and as the **Initials** quick-pick on the Sell tab. Before 2×, the box shows how close you are.
 
 * The sell's minimum return is your initials, so it either returns at least that much or doesn't go through. If the price moves up before it fills, you get a little more.
-* It only appears when one sell would really return the full amount. Being up at the market price isn't always enough: the sell fee and price impact can eat a small gain. The box shows the numbers until it unlocks.
+* The amount includes the sell fee and price impact, so you really receive your initials, not just their value at the market price.
 * Once your initials are out, the box shows **0 · initials out** and your holding is tagged **free**.
+
+## Sell by SOL amount
+
+On the Sell tab, tap **⇄** next to the amount to switch between typing tokens and typing the SOL you want back. In SOL mode, type `1` and Velvet works out exactly how many tokens to sell to get you 1 SOL, fees and price impact included. The quick picks (25%, 50%, 75%, Max, Initials) fill in SOL amounts too.
+

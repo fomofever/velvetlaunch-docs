@@ -138,7 +138,7 @@ On each coin page, **Your position** compares everything you put in (fees includ
 
 ## What is "Take initials out"?
 
-A one-tap sell of exactly enough tokens to get back what you put in, so the rest you hold is free. It only appears when you're in profit, and the sell can't return less than your initials. See [Your position](../trading/your-position.md#take-initials-out).
+Once your bag is worth 2× what you put in, one tap sells exactly what you put in (1 SOL in, 2 SOL bag: 1 SOL back) and the rest you hold is free. The sell can't return less than your initials. See [Your position](../trading/your-position.md#take-initials-out).
 
 ## What are the lines on the chart?
 
