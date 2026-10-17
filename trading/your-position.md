@@ -30,7 +30,7 @@ All your buys count together as one position. When everything you hold is worth 
 * The amount includes the sell fee and price impact, so you really receive your initials, and the sell can't return less.
 * After it's done, *Still in* reads **0 · initials out** and everything you hold is free. A new buy adds to *Still in* again, and the 2× target moves with it.
 
-## Sell by SOL amount
+## Selling in SOL
 
-On the Sell tab, tap **⇄** next to the amount to switch between typing tokens and typing the SOL you want back. In SOL mode, type `1` and Velvet works out exactly how many tokens to sell to get you 1 SOL, fees and price impact included. The quick picks (25%, 50%, 75%, Max, Initials) fill in SOL amounts too.
+On the Sell tab you always type the SOL you want back, never a token amount. Type `1` and Velvet works out exactly how many tokens to sell to get you 1 SOL, fees and price impact included, and shows that token count under the amount. The quick picks (25%, 50%, 75%, Max, Initials) fill in SOL amounts. **Max** sells your whole bag, with no dust left behind.
 
