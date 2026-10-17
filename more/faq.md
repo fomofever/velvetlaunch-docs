@@ -134,7 +134,7 @@ No. Velvet Launch (velvetlaunch.xyz) is an independent Solana launchpad. It has 
 
 ## How is my profit worked out?
 
-On each coin page, **Your position** compares everything you put in (fees included) with everything you've taken out, plus what your tokens are worth at the current market price and any hold-streak rewards. See [Your position](../trading/your-position.md).
+On each coin page, **Your position** compares everything you put in (fees included) with everything you've taken out, plus what your tokens are worth at the current market price and any hold-streak rewards. When you sell out completely, that position closes and shows as your last round; your next buy starts a fresh position from zero. See [Your position](../trading/your-position.md).
 
 ## What is "Take initials out"?
 

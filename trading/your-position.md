@@ -8,15 +8,23 @@ With your wallet connected, each coin page shows **Your position** under the tra
 
 | Line | Meaning |
 | --- | --- |
-| **Headline** | Your unrealized profit or loss on what you hold, at the current market price. If you hold none, or your initials are out, it shows your total result instead. |
+| **Headline** | Your unrealized profit or loss on what you hold, at the current market price. Once your initials are out, it shows this position's result instead. |
 | **Holding** | Your tokens, including line tokens you haven't claimed yet and, for creators, the locked opening-buy bag. |
 | **Worth now** | Your tokens at the current market price. |
 | **If you sold it all at once** | What one sell of everything would actually return. A big sell moves the price down as it fills and the sell fee comes off, so this is lower than "Worth now". Smaller sells get closer to the market price. |
-| **Put in** | Everything you paid for this coin, fees included: buys, your line spot, an opening buy. |
-| **Taken out** | Everything your sells have returned. |
-| **Still in** | The SOL you haven't got back yet: put in minus taken out. At 0 your initials are out, and what you still hold is free. Shown only while you hold tokens; once you've sold everything, Total result tells the story. |
+| **Put in** | Everything you paid into this position, fees included: buys, your line spot, an opening buy. |
+| **Taken out** | Everything your sells in this position have returned. |
+| **Still in** | The SOL you haven't got back yet: put in minus taken out. At 0 your initials are out, and what you still hold is free. |
+| **Result** | Worth now + taken out − put in, for this position. |
+| **Last round** | The result of your previous position on this coin, if you sold out before. |
 | **Hold-streak rewards** | What this coin's holder pool has paid to your wallet. |
-| **Total result** | Worth now + taken out − put in + rewards. |
+| **All-time** | Every round on this coin plus rewards. Shown once there's more than one round, or rewards. |
+
+## Rounds: selling out starts fresh
+
+When you sell everything (nothing but dust left), that position closes. The box changes to **Your last round · closed**, showing what you put in, what you took out and the round's result, and says you hold none now. It never looks like you're still in.
+
+Your next buy starts a new position from zero: put in, taken out, still in and the 2× initials target count from that buy only. The closed round stays as **Last round**, and each time you sell out again it's replaced by the newest one.
 
 Network fees (a fraction of a cent per transaction) and refundable account deposits aren't counted.
 
