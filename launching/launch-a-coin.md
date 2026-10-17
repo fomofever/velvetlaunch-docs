@@ -15,7 +15,7 @@ Go to **Launch** at the top of the site. Everything is on one form, with a live 
 * **Logo**: PNG, JPEG or WebP, up to 2 MB. Square art looks best.
 * **Description and links** (optional): a line or two about the coin, plus a website, X and Telegram link.
 
-Velvet stores the logo and writes the name, ticker and metadata link on-chain. Your coin's mint address will normally end in **vLvt**.
+Velvet stores the logo and metadata permanently on Arweave and writes the name, ticker and metadata link on-chain. Your coin's mint address will normally end in **vLvt**.
 
 ## 2. Choose how long the line runs
 
