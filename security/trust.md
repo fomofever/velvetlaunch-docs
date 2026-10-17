@@ -31,7 +31,7 @@ If Velvet's servers went down, anyone could send these transactions and get exac
 
 The site shows you prices, charts and the board, and builds the transactions you sign. Your wallet shows what you're signing. Velvet never holds your keys or your funds.
 
-Coin logos and metadata are stored permanently on **Arweave**, so a coin's name, logo and links keep working in every wallet and explorer even if Velvet's site is gone. (The very first test coins on devnet used Velvet's own storage.) The site also keeps the list of free launches waiting for a first buyer. If it were down, existing coins would keep working: they're on-chain, and trade on Raydium once bonded.
+Coin logos and metadata are stored permanently on **Arweave**, so a coin's name, logo and links keep working in every wallet and explorer even if Velvet's site is gone. The site also keeps the list of free launches waiting for a first buyer. If it were down, existing coins would keep working: they're on-chain, and trade on Raydium once bonded.
 
 ## Settings
 
