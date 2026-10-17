@@ -42,7 +42,7 @@ Joining a line costs the normal **1%** trading fee, taken when the line settles.
 
 ## Free launches
 
-If a coin is **Ready to launch**, nobody has put it on-chain yet. The first person to get in line does that with the same transaction, paying a one-time setup of about 0.022 SOL. Going first still gives no price advantage. See [Free launches](../launching/free-launches.md).
+If a coin is **Ready to launch**, nobody has put it on-chain yet. The first person to get in line does that with the same transaction, paying a one-time setup of about 0.022 SOL (plus 0.0001 SOL for permanent storage). Going first still gives no price advantage. See [Free launches](../launching/free-launches.md).
 
 {% hint style="info" %}
 Why a line? Bots are faster than people. If the first buyer gets the best price, bots win every launch. With a line, being first is worthless, so there's nothing to snipe. More in [The line](../how-it-works/the-line.md).

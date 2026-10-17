@@ -36,7 +36,7 @@ Set the least SOL the line has to raise, up to **100 SOL**. If the line ends bel
 | | **Free launch** · no SOL needed | **Instant launch** · ≈0.022 SOL |
 | --- | --- | --- |
 | What you do | Sign a message. No transaction. | Send the launch transaction. |
-| Cost to you | **0 SOL** | ≈0.022 SOL of account setup, plus any opening buy |
+| Cost to you | **0 SOL** | ≈0.022 SOL of account setup and 0.0001 SOL of permanent storage, plus any opening buy |
 | When the line starts | When the first buyer gets in line | Straight away |
 | Opening buy and lock | Not available | Available |
 | Expires | After 7 days if nobody opens it | Never |
