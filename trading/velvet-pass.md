@@ -14,7 +14,14 @@ Every wallet that trades on Velvet gets a **Velvet Pass**: a record kept by the 
 | **Regular** | Join **3 lines** | Your [hold streak](hold-streak.md) starts 6 hours ahead |
 | **VIP** | Join **10 lines** and put at least **5 SOL** into them | Pay **half the cover charge**; your hold streak starts 12 hours ahead |
 
-A line counts when you first claim its tokens, if you put in at least **0.1 SOL** and the launch went ahead (cancelled lines and refunded SOL don't count).
+A line counts when you first claim its tokens, if:
+
+- you put in at least **0.1 SOL** (refunded SOL doesn't count),
+- the launch went ahead (cancelled lines don't count),
+- it was a real launch: at least **10 wallets** and **10 SOL** in its line, and
+- it isn't your own coin.
+
+The FAQ on the Rules page shows the numbers in force right now.
 
 ## Flips
 
