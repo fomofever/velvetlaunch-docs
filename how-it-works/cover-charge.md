@@ -21,6 +21,14 @@ The fee falls in a straight line over **150 Solana slots**, which is about a min
 
 So if someone pays a cover charge to flip the opening, the people holding the coin are the ones who get paid for it.
 
+## No bonding during the cover charge
+
+A coin can't finish its bonding curve (and move to Raydium, where there's no cover charge) until the cover charge is over. A buy that would complete the curve in that minute is refused. See [The line](the-line.md#a-full-line-cant-bond-in-the-first-minute).
+
+## VIPs pay half
+
+Wallets with a **VIP** [Velvet Pass](../trading/velvet-pass.md) pay half of the cover charge above the normal fee: 25.5% instead of 50% right at the open. The normal 1% is never discounted.
+
 ## See it before you trade
 
 The trade box shows **Cover charge now** on every coin, and the trade button warns you when the cover charge is above 10%. Wait a minute and you pay the normal fee.

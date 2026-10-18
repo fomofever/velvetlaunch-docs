@@ -18,8 +18,8 @@ A **verified build** proves that the program deployed on Solana was built from e
 | --- | --- |
 | Program ID | `8f9XtMzn9J8vapxoLoypKUjNta64jhjfr18WMVCn5yAk` |
 | Network | Solana devnet |
-| Source commit | [`f47ccbe`](https://github.com/fomofever/velvet-program/commit/f47ccbeb55bf4c71f1c3aa822a7a09514704f806) |
-| Executable hash | `5308818d005c09d9749eb74b8a96a93e3baee2ceb2e334d4c8bf6507778108d1` |
+| Source commit | [`0596be0`](https://github.com/fomofever/velvet-program/commit/0596be0807c5db882eae6d4ddb00449bcd13454f) |
+| Executable hash | `00361bf3fa8bcc35a36fb8bdce5fd87eb4fc7706eb869d0332722c3b7221d372` |
 | On-chain verification record | `RtuQouMuxb8P8h75L5GFHAB7ocKETzPK4u1XZ96yEty` |
 
 On mainnet, the build will also be submitted to OtterSec's public verifier, which gives the program a **Verified** badge on Solana explorers.
@@ -31,7 +31,7 @@ With Docker and [`solana-verify`](https://github.com/Ellipsis-Labs/solana-verifi
 ```sh
 git clone https://github.com/fomofever/velvet-program
 cd velvet-program
-git checkout f47ccbeb55bf4c71f1c3aa822a7a09514704f806
+git checkout 0596be0807c5db882eae6d4ddb00449bcd13454f
 solana-verify build --library-name fairlaunch
 solana-verify get-executable-hash target/deploy/fairlaunch.so
 solana-verify get-program-hash -u devnet 8f9XtMzn9J8vapxoLoypKUjNta64jhjfr18WMVCn5yAk

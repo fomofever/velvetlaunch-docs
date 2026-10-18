@@ -19,6 +19,19 @@ Every Velvet coin opens with a **line**:
 
 Since being first is worth nothing, there's nothing to snipe. A bot in the line is just another buyer at the same price as you.
 
+## Big lines unlock gradually
+
+When a line puts **more than 30 SOL** into the curve, its tokens don't all arrive at once:
+
+* **25%** of every spot can be claimed as soon as the doors open;
+* the other **75% unlocks steadily over 1 hour**. Claim whenever you like: each claim sends whatever has unlocked so far.
+
+A big line opens at a much higher price than it paid, so without this a full line could dump on everyone the moment the doors open. Lines of 30 SOL or less open fully unlocked. The coin page shows how much of your spot has unlocked and a countdown to the rest, and your position counts the locked part as yours.
+
+## A full line can't bond in the first minute
+
+While the [cover charge](cover-charge.md) is on, nothing can finish the bonding curve. If a line is big enough to fill the whole curve, it stops just short of it and the unused SOL is refunded to everyone in the line, pro-rata, with the same **Claim**. A buy that would finish the curve during that minute is refused (the trade box tells you to buy a little less or wait). Once the cover charge is over, the next buy completes the curve and the coin bonds as usual. This way nobody can skip the cover charge by moving the coin to Raydium straight away.
+
 ## Right after the doors open
 
 The next defence is the [cover charge](cover-charge.md): for about a minute after the doors open, trading costs much more than normal (starting at 50%), and the extra goes to the coin's holders. Flipping the opening becomes expensive, and holders get paid when someone tries.
@@ -34,6 +47,7 @@ If the creator wants their own coin, they can make an [opening buy](../launching
 | Line length | about 4 seconds to 5 minutes (10 to 750 Solana slots) |
 | Commit limit | about 1.9 SOL per wallet: whatever buys 3% of the supply at the starting price |
 | Guest-list minimum | none, up to 100 SOL. Below it, everyone is refunded. |
+| Big-line unlock | lines over 30 SOL: 25% at open, the rest over 1 hour |
 
 ## Who opens the doors?
 

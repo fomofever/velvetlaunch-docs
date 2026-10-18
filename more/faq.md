@@ -147,3 +147,16 @@ The dashed gold line is where the coin bonds; the green and red lines are your a
 ## Can I change my slippage?
 
 Yes. Tap **Slippage** in the trade box and pick 0.5%, 1%, 3% (the default), 5% or 10%, or type your own between 0.1% and 50%. It's remembered in your browser. See [Buying and selling](../trading/buying-and-selling.md#slippage).
+
+## What is the Velvet Pass?
+
+Your record across every Velvet coin. Join 3 lines to become a **Regular** (hold-streak rewards start 6 hours ahead); join 10 lines with at least 5 SOL in them to become a **VIP** (half the cover charge, rewards start 12 hours ahead). Selling during a cover charge is a flip and costs a tier until you've joined 5 more lines. See [Velvet Pass](../trading/velvet-pass.md).
+
+## Why can't I claim all my line tokens at once?
+
+When a line puts more than 30 SOL into the curve, 25% of every spot unlocks at open and the rest over 1 hour, so a big line can't dump the moment the doors open. Claim whenever you like; each claim sends what has unlocked. See [The line](../how-it-works/the-line.md#big-lines-unlock-gradually).
+
+## Why was my buy refused right after the doors opened?
+
+A buy that would finish the bonding curve isn't allowed while the cover charge is on (about a minute). Buy a little less, or wait for the cover charge to end.
+
