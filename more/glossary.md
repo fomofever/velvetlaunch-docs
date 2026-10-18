@@ -44,4 +44,4 @@ description: The words used on Velvet, in plain terms.
 
 **Timelock**: the wait between proposing a settings change and applying it (48 hours on mainnet). See [Settings and the timelock](../security/timelock.md).
 
-**vLvt**: the ending Velvet gives its coins' mint addresses.
+**vLvt**: the ending every Velvet coin's mint address has. The program refuses to create a coin at any other address.

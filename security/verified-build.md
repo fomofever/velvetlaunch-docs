@@ -19,8 +19,8 @@ A **verified build** proves that the program deployed on Solana was built from e
 | Program ID | `8f9XtMzn9J8vapxoLoypKUjNta64jhjfr18WMVCn5yAk` | `VPkPeiAg7LheTtDdBByCmXewabF9zF6yK5YYLmfPjWb` |
 | Library name | `fairlaunch` | `velvet_pools` |
 | Network | Solana devnet | Solana devnet |
-| Source commit | [`ad4ea16`](https://github.com/fomofever/velvet-program/commit/ad4ea16b40b0694c3719f79bd2155f2a2c6f3fdb) | same |
-| Executable hash | `560c7998251cf31e9bbd898b5a3fddffd85df343b18f04f2ee22d8c87f692f5a` | `9aefa0e9a3faf96c0d2ff30343cc8bc0ae36b45d8115d100ee56177d0c8c9a48` |
+| Source commit | [`73c142f`](https://github.com/fomofever/velvet-program/commit/73c142f996b3e8482c8a25538bbf5f2173ac9763) | [`ad4ea16`](https://github.com/fomofever/velvet-program/commit/ad4ea16b40b0694c3719f79bd2155f2a2c6f3fdb) |
+| Executable hash | `cb0c3423b924960443e0477f328a2ebbf144fcadad0986055e34e8cddb0cae4a` | `9aefa0e9a3faf96c0d2ff30343cc8bc0ae36b45d8115d100ee56177d0c8c9a48` |
 | On-chain verification record | `RtuQouMuxb8P8h75L5GFHAB7ocKETzPK4u1XZ96yEty` | written by the same process |
 
 On mainnet, the build will also be submitted to OtterSec's public verifier, which gives the program a **Verified** badge on Solana explorers.
@@ -32,13 +32,13 @@ With Docker and [`solana-verify`](https://github.com/Ellipsis-Labs/solana-verifi
 ```sh
 git clone https://github.com/fomofever/velvet-program
 cd velvet-program
-git checkout ad4ea16b40b0694c3719f79bd2155f2a2c6f3fdb
+git checkout 73c142f996b3e8482c8a25538bbf5f2173ac9763
 solana-verify build --library-name fairlaunch
 solana-verify get-executable-hash target/deploy/fairlaunch.so
 solana-verify get-program-hash -u devnet 8f9XtMzn9J8vapxoLoypKUjNta64jhjfr18WMVCn5yAk
 ```
 
-The last two hashes should match. For Velvet Pools, use `--library-name velvet_pools`, `target/deploy/velvet_pools.so` and its program ID.
+The last two hashes should match. For Velvet Pools, check out its commit above and use `--library-name velvet_pools`, `target/deploy/velvet_pools.so` and its program ID.
 
 Velvet Pools is based on Raydium's open-source [CP-Swap](https://github.com/raydium-io/raydium-cp-swap) (Apache-2.0); its license is kept in the source and changed files are marked.
 

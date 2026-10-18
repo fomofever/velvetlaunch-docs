@@ -22,7 +22,7 @@ The programs will use the same addresses on mainnet. Each coin's pool address is
 
 ## Coin addresses
 
-Every coin's mint address is created by the program, and Velvet picks addresses that end in **`vLvt`**, for example `6kA4…vLvt`. (If no `vLvt` address is free at that moment, the coin gets a regular address instead.) To be sure a coin was launched on Velvet, open it on velvetlaunch.xyz: the site only lists coins created by Velvet's program.
+Every coin's mint address is created by the program, and every one ends in **`vLvt`**, for example `6kA4…vLvt`. The program enforces this: it refuses to create a coin at any address that doesn't end in `vLvt`. To be sure a coin was launched on Velvet, open it on velvetlaunch.xyz: the site only lists coins created by Velvet's program.
 
 ## Raydium (mainnet, coins that bonded earlier)
 
