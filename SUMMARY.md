@@ -11,6 +11,7 @@
 * [The chart](trading/the-chart.md)
 * [Your position](trading/your-position.md)
 * [Pools](trading/pools.md)
+* [Velvet Swap](trading/swap.md)
 * [Hold streak payouts](trading/hold-streak.md)
 * [Velvet Pass](trading/velvet-pass.md)
 * [Burning tokens](trading/burning.md)
