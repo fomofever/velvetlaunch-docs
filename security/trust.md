@@ -22,7 +22,7 @@ A payout can never touch the bonding curve's SOL, refunds, or locked liquidity. 
 These steps are permissionless: the program decides what happens, and Velvet just makes sure the transaction is sent promptly.
 
 * Opening the doors when a line's timer ends.
-* Moving a coin to Raydium when its curve sells out.
+* Moving a coin to its pool when its curve sells out.
 * Collecting the locked liquidity's pool fees.
 
 Anyone can send these transactions and get exactly the same result.
@@ -31,7 +31,7 @@ Anyone can send these transactions and get exactly the same result.
 
 The site shows you prices, charts and the board, and builds the transactions you sign. Your wallet shows what you're signing. Velvet never holds your keys or your funds.
 
-Coin logos and metadata are stored permanently on **Arweave**, so a coin's name, logo and links keep working in every wallet and explorer even if Velvet's site is gone. Existing coins never depend on the site: they're on-chain, and trade on Raydium once bonded.
+Coin logos and metadata are stored permanently on **Arweave**, so a coin's name, logo and links keep working in every wallet and explorer even if Velvet's site is gone. Existing coins never depend on the site: they're on-chain, and trade in their on-chain pool once bonded.
 
 ## Settings
 

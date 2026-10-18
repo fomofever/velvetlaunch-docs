@@ -10,7 +10,7 @@ Every coin on Velvet has a **holder pool** of SOL. Every hour, the pool pays par
 
 * **0.25%** of every curve trade (a quarter of the 1% fee), and of the line when it settles.
 * **The whole cover charge** above the normal fee, paid by people who trade right after the doors open.
-* After the coin bonds, **25%** of the fees its locked Raydium liquidity earns.
+* After the coin bonds, **0.05%** of every pool trade (for coins that bonded to Raydium, 25% of the fees their locked liquidity earns).
 
 See [Fees](../how-it-works/fees.md) for the full picture.
 

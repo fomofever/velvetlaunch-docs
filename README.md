@@ -8,7 +8,7 @@ description: The anti-snipe Solana launchpad. Nobody cuts the line.
 
 **Velvet Launch** is a Solana launchpad built so that bots can't snipe a new coin. Every coin opens with a short **line**: anyone can join while it's open, and when the timer ends everyone in it buys together at **one price**. Being first is worth nothing, so the opening goes to people, not sniper bots.
 
-After the doors open, the coin trades on Velvet's bonding curve. When the curve sells out, the coin moves to a **Raydium** pool with its liquidity **locked forever**.
+After the doors open, the coin trades on Velvet's bonding curve. When the curve sells out, the coin moves to its own **Velvet Pools** pool with its liquidity **locked forever**.
 
 ## What makes it different
 
@@ -18,7 +18,7 @@ After the doors open, the coin trades on Velvet's bonding curve. When the curve 
 | **Cover charge for flippers** | Right after the doors open, the trading fee starts at 50% and falls to 1% within about a minute. Everything above the normal fee goes to the coin's holders. |
 | **No whales while bonding** | No wallet can get more than 3% of the supply before the coin bonds: not in the line, not with the opening buy, not on the curve. |
 | **Holders get paid** | Every hour, each coin's holder pool pays its holders in SOL, weighted by how long they've held. |
-| **Liquidity locked for good** | When a coin bonds, 100% of its Raydium LP goes into Raydium's locker. Nobody can pull it, Velvet included. |
+| **Liquidity locked for good** | When a coin bonds, its liquidity goes into a pool that has no withdraw at all. Nobody can pull it, Velvet included. |
 | **Launch for free** | Creators can launch by signing a message. The first buyer puts the coin on-chain. |
 | **Fixed supply** | Every coin has exactly 1,000,000,000 tokens and minting is switched off in the launch transaction. |
 

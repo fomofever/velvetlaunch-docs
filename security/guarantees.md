@@ -16,7 +16,7 @@ Velvet runs on a Solana program (a smart contract). These rules are written into
 
 * **The curve is locked while the line is open.** Nobody can buy before the doors open, not even the creator.
 * **One price for the line.** The whole line is filled as one buy, and each wallet's share is exactly proportional to its SOL.
-* **No bonding during the cover charge.** Nothing can finish the curve and move a coin to Raydium until the cover charge is over.
+* **No bonding during the cover charge.** Nothing can finish the curve and move a coin to its pool until the cover charge is over.
 * **Big lines unlock gradually.** When a line puts more than 30 SOL into the curve, 25% unlocks at open and the rest over an hour.
 * **Refunds are guaranteed.** If the line misses the guest-list minimum, every lamport committed can be claimed back.
 * **The creator's buy is limited and visible.** At most 3% of the supply (about 1.9 SOL), inside the launch transaction, at the start price, and locked if the creator chose to.
@@ -30,8 +30,8 @@ Velvet runs on a Solana program (a smart contract). These rules are written into
 
 ## Bonding
 
-* **Liquidity goes to Raydium automatically** when the curve sells out, with the 30% reserve, at the curve's last price.
-* **100% of the LP is locked in Raydium's locker**, permanently. Nobody can withdraw it.
+* **Liquidity goes into the coin's Velvet Pools pool automatically** when the curve sells out, with the 30% reserve, at exactly the curve's last price.
+* **The liquidity is locked forever.** Velvet Pools has no withdraw, and only Velvet's program can open a pool, one per coin. (Coins that bonded to Raydium have 100% of their LP locked in Raydium's locker.)
 * **Recycled fees are locked too:** LP from fees sent back into the pool is burned.
 
 ## Money that isn't yours to take

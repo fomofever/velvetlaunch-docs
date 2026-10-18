@@ -6,7 +6,7 @@ description: The words used on Velvet, in plain terms.
 
 **ATH ×**: how many times above the line price a coin's all-time high reached.
 
-**Bonded**: the coin's curve sold out and it trades on its own Raydium pool, with liquidity locked forever.
+**Bonded**: the coin's curve sold out and it trades on its own pool, with liquidity locked forever.
 
 **Bonding**: the coin trades on Velvet's bonding curve.
 
@@ -36,7 +36,9 @@ description: The words used on Velvet, in plain terms.
 
 **Line price**: the single price everyone in the opening line paid.
 
-**LP lock**: the Raydium LP tokens for a bonded coin's pool, locked forever in Raydium's locker.
+**LP lock**: a bonded coin's liquidity can never be withdrawn. Velvet Pools has no withdraw at all; for coins that bonded to Raydium, the LP tokens are locked forever in Raydium's locker.
+
+**Velvet Pools**: Velvet's own swap program, where coins trade after they bond.
 
 **Ready to launch**: a free launch waiting for its first buyer.
 

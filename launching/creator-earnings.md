@@ -12,13 +12,11 @@ Like any holder, you earn [hold streak payouts](../trading/hold-streak.md) on to
 
 ## After the coin bonds
 
-When the coin moves to Raydium, its liquidity is locked forever, but that liquidity keeps **earning Raydium's trading fees**. Velvet collects them regularly and splits the SOL side:
+When the coin bonds into its Velvet Pools pool, every pool trade pays **0.35%** in SOL, and **0.05% goes to the creator's wallet**, paid automatically (0.20% stays in the pool, 0.05% to holders, 0.05% to Velvet).
 
-| Share | Goes to |
-| --- | --- |
-| **25%** | **The creator's wallet**, paid automatically |
-| 25% | The coin's holder pool |
-| 50% | Velvet (a quarter of this goes [back into the pool](../how-it-works/bonding-to-raydium.md#fees-back-into-liquidity)) |
+For coins that bonded to Raydium, the locked liquidity's share of Raydium's trading fees is split **25% to the creator**, 25% to holders and 50% to Velvet (a quarter of Velvet's part goes back into the pool).
+
+If the creator's wallet is completely empty and a payment is too small for Solana to deliver to it, that one payment goes to holders instead.
 
 You don't need to claim anything. Payments go to the wallet that created the coin, including for [free launches](free-launches.md) where someone else paid the setup.
 

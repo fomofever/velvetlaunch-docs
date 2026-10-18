@@ -32,7 +32,7 @@ Yes. Choose **Free launch** on the launch page and just sign a message. Your coi
 
 <summary>Can the creator rug the liquidity?</summary>
 
-No. Bonded coins have 100% of their Raydium LP locked in Raydium's own locker, permanently. Before that, the SOL sits in the program's curve, which only pays out through trades by its rules.
+No. Bonded coins trade in a Velvet Pools pool, which has no way to withdraw liquidity at all (coins that bonded earlier have 100% of their Raydium LP locked in Raydium's own locker, permanently). Before that, the SOL sits in the program's curve, which only pays out through trades by its rules.
 
 </details>
 
@@ -48,7 +48,7 @@ No. Every coin has a fixed 1B supply, and the mint authority is switched off in 
 
 <summary>Why can't I buy more than 3%?</summary>
 
-No wallet can get more than 3% of the supply before a coin bonds, whether in the line, with the creator's opening buy or on the curve, so one whale can't scoop the coin. In the line that means about 1.9 SOL per wallet. The limit lifts once the coin is on Raydium. See [Buying and selling](../trading/buying-and-selling.md#the-3-limit-while-bonding).
+No wallet can get more than 3% of the supply before a coin bonds, whether in the line, with the creator's opening buy or on the curve, so one whale can't scoop the coin. In the line that means about 1.9 SOL per wallet. The limit lifts once the coin bonds. See [Buying and selling](../trading/buying-and-selling.md#the-3-limit-while-bonding).
 
 </details>
 
@@ -88,7 +88,7 @@ How far the coin's all-time high got above the line price, the price everyone in
 
 <summary>What does Bonding / Bonded mean?</summary>
 
-**Bonding**: the coin trades on Velvet's bonding curve. **Bonded**: the curve sold out and the coin now trades on its Raydium pool, with locked liquidity.
+**Bonding**: the coin trades on Velvet's bonding curve. **Bonded**: the curve sold out and the coin now trades on its own pool, with locked liquidity.
 
 </details>
 

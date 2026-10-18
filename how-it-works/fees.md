@@ -11,8 +11,9 @@ description: Every fee on Velvet, and where it goes.
 | **Joining a line** | 1%, taken when the line settles | ¼ to the coin's holders, ¾ to Velvet. Not taken if the line ends short. |
 | **Curve trade** (buy or sell) | 1% | ¼ (0.25%) to the coin's holders, ¾ (0.75%) to Velvet |
 | **Cover charge** right after the open | up to 50%, falling to 1% in about a minute | Everything above 1% goes to the coin's holders |
-| **Bonding to Raydium** | 0.25 SOL, once | Velvet, paid from the curve |
-| **Raydium pool trade** | Raydium's 0.25% pool fee | The locked liquidity's share is split 25% creator · 25% holders · 50% Velvet, and a quarter of Velvet's part goes back into the pool |
+| **Bonding** | 0.25 SOL, once | Velvet, paid from the curve |
+| **Pool trade** (after bonding) | 0.35%, in SOL | 0.20% stays in the pool · 0.05% holders · 0.05% creator · 0.05% Velvet |
+| **Raydium pool trade** (coins that bonded to Raydium) | Raydium's 0.25% pool fee | The locked liquidity's share is split 25% creator · 25% holders · 50% Velvet, and a quarter of Velvet's part goes back into the pool |
 | **Burning tokens** | Network fee only | Nobody |
 | **Claiming, refunds, payouts** | Network fee only | Nobody |
 

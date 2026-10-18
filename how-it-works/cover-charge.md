@@ -23,7 +23,7 @@ So if someone pays a cover charge to flip the opening, the people holding the co
 
 ## No bonding during the cover charge
 
-A coin can't finish its bonding curve (and move to Raydium, where there's no cover charge) until the cover charge is over. A buy that would complete the curve in that minute is refused. See [The line](the-line.md#a-full-line-cant-bond-in-the-first-minute).
+A coin can't finish its bonding curve (and move to its pool, where there's no cover charge) until the cover charge is over. A buy that would complete the curve in that minute is refused. See [The line](the-line.md#a-full-line-cant-bond-in-the-first-minute).
 
 ## VIPs pay half
 

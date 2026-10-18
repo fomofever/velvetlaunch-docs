@@ -1,5 +1,5 @@
 ---
-description: Trading a coin on the bonding curve or on Raydium, and the 3% wallet limit.
+description: Trading a coin on the bonding curve or in its pool, and the 3% wallet limit.
 ---
 
 # Buying and selling
@@ -22,7 +22,7 @@ Once a coin's doors open, you trade it from the box on the right of its coin pag
 ## Where the trade happens
 
 * **Bonding** coins trade on Velvet's [bonding curve](../how-it-works/bonding-curve.md). The price moves with every buy and sell.
-* **Bonded** coins trade on their **Raydium** pool. The same box routes your trade there, so nothing changes for you.
+* **Bonded** coins trade in their **Velvet Pools** pool (or, for coins that bonded earlier, their Raydium pool). The same box routes your trade there, so nothing changes for you.
 
 ## The 3% limit while bonding
 
@@ -46,4 +46,4 @@ Tap **Slippage** in the trade box to change it: pick 0.5%, 1%, 3%, 5% or 10%, or
 
 ## Your trades
 
-The **Trades** list on the coin page shows every buy and sell, plus the coin's milestones: launched, doors open, moved to Raydium, LP locked, 🔥 burns, and **Fees → liquidity** when [pool fees go back into the pool](../how-it-works/bonding-to-raydium.md#fees-back-into-liquidity). On the chart, trades by the creator are marked **D** and your own trades **Y**.
+The **Trades** list on the coin page shows every buy and sell, plus the coin's milestones: launched, doors open, bonded, LP locked, 🔥 burns, and **Fees → liquidity** when [pool fees go back into the pool](../how-it-works/bonding-to-raydium.md#coins-that-bonded-to-raydium). On the chart, trades by the creator are marked **D** and your own trades **Y**.

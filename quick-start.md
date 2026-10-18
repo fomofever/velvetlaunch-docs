@@ -20,7 +20,7 @@ The home page is **the board**: every coin on Velvet, with the ones trending in 
 
 * **In line**: about to open. You can [get in line](trading/getting-in-line.md).
 * **Bonding**: trading on Velvet's [bonding curve](how-it-works/bonding-curve.md).
-* **Bonded**: trading on its Raydium pool, with liquidity locked forever.
+* **Bonded**: trading on its own pool, with liquidity locked forever.
 
 More in [The board](trading/the-board.md).
 

@@ -1,5 +1,5 @@
 ---
-description: The program, config and Raydium addresses Velvet uses.
+description: The program, Velvet Pools, config and Raydium addresses Velvet uses.
 ---
 
 # Addresses
@@ -12,18 +12,19 @@ Velvet currently runs on **Solana devnet**. Mainnet addresses for the treasury a
 
 | | Address |
 | --- | --- |
-| Program | [`8f9XtMzn9J8vapxoLoypKUjNta64jhjfr18WMVCn5yAk`](https://explorer.solana.com/address/8f9XtMzn9J8vapxoLoypKUjNta64jhjfr18WMVCn5yAk?cluster=devnet) |
+| Launchpad program | [`8f9XtMzn9J8vapxoLoypKUjNta64jhjfr18WMVCn5yAk`](https://explorer.solana.com/address/8f9XtMzn9J8vapxoLoypKUjNta64jhjfr18WMVCn5yAk?cluster=devnet) |
 | Config (devnet) | [`1US82nyGuVex3o6ngeeHgiXVkwFrVqLRjsHpwfzt6fT`](https://explorer.solana.com/address/1US82nyGuVex3o6ngeeHgiXVkwFrVqLRjsHpwfzt6fT?cluster=devnet) |
 | Treasury (devnet) | [`Ev7cPd4cU34oixKSiT4RE2LxhU4oCm5ocMh8R2Y5z8qe`](https://explorer.solana.com/address/Ev7cPd4cU34oixKSiT4RE2LxhU4oCm5ocMh8R2Y5z8qe?cluster=devnet) |
+| Velvet Pools program | [`VPkPeiAg7LheTtDdBByCmXewabF9zF6yK5YYLmfPjWb`](https://explorer.solana.com/address/VPkPeiAg7LheTtDdBByCmXewabF9zF6yK5YYLmfPjWb?cluster=devnet) |
 | Program source | [github.com/fomofever/velvet-program](https://github.com/fomofever/velvet-program) |
 
-The program will use the same address on mainnet.
+The programs will use the same addresses on mainnet. Each coin's pool address is derived from its mint, so there's exactly one per coin.
 
 ## Coin addresses
 
 Every coin's mint address is created by the program, and Velvet picks addresses that end in **`vLvt`**, for example `6kA4…vLvt`. (If no `vLvt` address is free at that moment, the coin gets a regular address instead.) To be sure a coin was launched on Velvet, open it on velvetlaunch.xyz: the site only lists coins created by Velvet's program.
 
-## Raydium (mainnet)
+## Raydium (mainnet, coins that bonded earlier)
 
 | | Address |
 | --- | --- |
@@ -31,7 +32,7 @@ Every coin's mint address is created by the program, and Velvet picks addresses 
 | AMM config (0.25% fee) | `D4FPEruKEHrG5TenZ2mpDGEfu1iUvTiqBxvpU8HLBvC2` |
 | LP locker | `LockrWmn6K5twhz3y9w1dQERbmgSaRkfnTeTKbpofwE` |
 
-## Raydium (devnet)
+## Raydium (devnet, coins that bonded earlier)
 
 | | Address |
 | --- | --- |

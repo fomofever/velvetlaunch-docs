@@ -28,7 +28,7 @@
 * [The line](how-it-works/the-line.md)
 * [The cover charge](how-it-works/cover-charge.md)
 * [The bonding curve](how-it-works/bonding-curve.md)
-* [Bonding to Raydium](how-it-works/bonding-to-raydium.md)
+* [Bonding](how-it-works/bonding-to-raydium.md)
 * [Fees](how-it-works/fees.md)
 
 ## Security

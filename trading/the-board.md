@@ -15,7 +15,7 @@ The home page lists every coin on Velvet. At the top, **Trending** ranks coins b
 | **Ready to launch** | A [free launch](../launching/free-launches.md) waiting for its first buyer. It isn't on-chain yet. |
 | **In line** | The line is open. Commit SOL now and you buy at the opening price with everyone else. See [Getting in line](getting-in-line.md). |
 | **Bonding** | The doors are open and the coin trades on Velvet's [bonding curve](../how-it-works/bonding-curve.md). |
-| **Bonded** | The curve sold out. The coin trades on its Raydium pool, with 100% of the liquidity locked. |
+| **Bonded** | The curve sold out. The coin trades on its own pool, with 100% of the liquidity locked. |
 
 ## Badges and signals
 

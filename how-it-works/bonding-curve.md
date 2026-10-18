@@ -13,9 +13,9 @@ Every coin has a fixed supply of **1,000,000,000 tokens**, split in two at launc
 | Share | Tokens | What it's for |
 | --- | --- | --- |
 | **70%** | 700,000,000 | Sold on the bonding curve (including the line and any opening buy) |
-| **30%** | 300,000,000 | Kept aside for the Raydium pool when the coin bonds |
+| **30%** | 300,000,000 | Kept aside for the coin's pool when it bonds |
 
-When all 700M curve tokens are sold, about **100 SOL** has gone in and the coin [bonds to Raydium](bonding-to-raydium.md). The 30% goes into the pool with that SOL, at the price where the curve ended, so there's no jump when it moves.
+When all 700M curve tokens are sold, about **100 SOL** has gone in and the coin [bonds](bonding-to-raydium.md). The 30% goes into the pool with that SOL, at exactly the price where the curve ended (any extra is burned), so there's no jump when it moves.
 
 ## The shape of the curve
 
@@ -39,10 +39,10 @@ These are Velvet's mainnet settings. Settings live in an on-chain config that ca
 
 ## Why 70/30?
 
-A bigger pool share means deeper liquidity on Raydium after bonding: the coin starts its DEX life with 30% of the supply and about 100 SOL in a locked pool, so trades move the price less and the chart is harder to crash.
+A bigger pool share means deeper liquidity after bonding: the coin starts its DEX life with 30% of the supply and about 100 SOL in a locked pool, so trades move the price less and the chart is harder to crash.
 
 ## The limits while bonding
 
 * **3% per wallet:** no wallet can get above 30M tokens, in the line, with the opening buy or on the curve. See [Buying and selling](../trading/buying-and-selling.md#the-3-limit-while-bonding).
 * **Fees:** 1% per trade, with the [cover charge](cover-charge.md) just after the open.
-* **Liquidity:** the SOL on the curve stays in the program's account. It only leaves through trades by the curve's rules, or into the Raydium pool when the coin bonds. Nobody can withdraw it.
+* **Liquidity:** the SOL on the curve stays in the program's account. It only leaves through trades by the curve's rules, or into the coin's pool when it bonds. Nobody can withdraw it.
