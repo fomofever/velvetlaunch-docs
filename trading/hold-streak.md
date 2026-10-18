@@ -10,7 +10,7 @@ Every coin on Velvet has a **holder pool** of SOL. Every hour, the pool pays par
 
 * **0.25%** of every curve trade (a quarter of the 1% fee), and of the line when it settles.
 * **The whole cover charge** above the normal fee, paid by people who trade right after the doors open.
-* After the coin bonds, **0.05%** of every pool trade (for coins that bonded to Raydium, 25% of the fees their locked liquidity earns).
+* After the coin bonds, **0.05%** of every pool trade.
 
 See [Fees](../how-it-works/fees.md) for the full picture.
 
@@ -38,9 +38,9 @@ The multiplier climbs smoothly between those points. It doubles over the first d
 Your streak, multiplier and the time of the next payout show on each coin page once you hold the coin.
 
 {% hint style="info" %}
-**Why didn't my payout show up yet?** You need to hold through a full hour before your balance counts, and payouts run about once an hour. Very small shares (under 0.000005 SOL) roll over into the next payout.
+**Why didn't my payout show up yet?** You need to hold through a full hour before your balance counts, and payouts run about once an hour. Very small shares roll over into the next payout.
 {% endhint %}
 
 ## Who runs the payouts
 
-Velvet sends the hourly payouts, and the program limits what a payout can do: it can only pay current holders of that coin, never more than the pool holds, never more than 4× a wallet's share of the supply, each wallet at most once per payout, and at most one payout per window. It can't touch curve funds, refunds or locked liquidity. See [What you trust Velvet for](../security/trust.md).
+Velvet sends the hourly payouts, and the program limits what a payout can do: it can only pay current holders of that coin, never more than the pool holds, and never far more than a wallet's share. It can't touch curve funds, refunds or locked liquidity. See [What you trust Velvet for](../security/trust.md).

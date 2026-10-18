@@ -22,13 +22,13 @@ Once a coin's doors open, you trade it from the box on the right of its coin pag
 ## Where the trade happens
 
 * **Bonding** coins trade on Velvet's [bonding curve](../how-it-works/bonding-curve.md). The price moves with every buy and sell.
-* **Bonded** coins trade in their **Velvet Pools** pool (or, for coins that bonded earlier, their Raydium pool). The same box routes your trade there, so nothing changes for you.
+* **Bonded** coins trade in their **Velvet Pools** pool. The same box routes your trade there, so nothing changes for you.
 
 ## The 3% limit while bonding
 
 While a coin is bonding, no wallet can buy past **3% of the supply** (30,000,000 tokens) on the curve. The trade box shows how much more you can buy under **Wallet limit while bonding**. The program checks this on every curve buy, so one whale can't scoop up the coin before it bonds. The same limit applies to [line commits](getting-in-line.md#the-3-limit-in-the-line) and the creator's [opening buy](../launching/opening-buy.md).
 
-Tokens in your wallet count toward it, and so do tokens you're still owed: your unclaimed share from the line and, for the creator, the opening-buy bag that's still locked. Waiting to claim doesn't get you around it. A buy that would take you over the limit is rejected, and nothing is spent. The limit lifts once the coin is on Raydium.
+Tokens in your wallet count toward it, and so do tokens you're still owed: your unclaimed share from the line and, for the creator, the opening-buy bag that's still locked. Waiting to claim doesn't get you around it. A buy that would take you over the limit is rejected, and nothing is spent. The limit lifts once the coin bonds.
 
 ## The cover charge
 
@@ -46,4 +46,4 @@ Tap **Slippage** in the trade box to change it: pick 0.5%, 1%, 3%, 5% or 10%, or
 
 ## Your trades
 
-The **Trades** list on the coin page shows every buy and sell, plus the coin's milestones: launched, doors open, bonded, LP locked, 🔥 burns, and **Fees → liquidity** when [pool fees go back into the pool](../how-it-works/bonding-to-raydium.md#coins-that-bonded-to-raydium). On the chart, trades by the creator are marked **D** and your own trades **Y**.
+The **Trades** list on the coin page shows every buy and sell, plus the coin's milestones: launched, doors open, bonded and 🔥 burns. On the chart, trades by the creator are marked **D** and your own trades **Y**.

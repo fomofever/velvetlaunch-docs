@@ -33,7 +33,7 @@ Velvet runs on a Solana program (a smart contract). These rules are written into
 ## Bonding
 
 * **Liquidity goes into the coin's Velvet Pools pool automatically** when the curve sells out, with the 30% reserve, at exactly the curve's last price.
-* **The liquidity is locked forever.** Velvet Pools has no withdraw, and only Velvet's program can open a pool, one per coin. (Coins that bonded to Raydium have 100% of their LP locked in Raydium's locker.)
+* **The liquidity is locked forever.** Velvet Pools has no withdraw, and only Velvet's program can open a pool, one per coin.
 * **Recycled fees are locked too:** LP from fees sent back into the pool is burned.
 
 ## Money that isn't yours to take

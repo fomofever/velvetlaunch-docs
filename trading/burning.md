@@ -28,4 +28,4 @@ When the **creator** burns, the coin gets a **🔥 Dev burned** badge on the boa
 * Burning costs only the Solana network fee. Velvet takes nothing.
 * If you burn **all** of a coin, the token account is closed and its rent (about 0.002 SOL) comes back to you.
 * Burning does **not** reset your [hold streak](hold-streak.md).
-* The program also burns tokens itself: at [bonding](../how-it-works/bonding-to-raydium.md), any of the 30% pool reserve not needed to match the curve's last price, and for coins that bonded to Raydium, any coin left over when [pool fees go back into liquidity](../how-it-works/bonding-to-raydium.md#coins-that-bonded-to-raydium). That's counted separately from the creator's burns.
+* The program also burns tokens itself: at [bonding](../how-it-works/bonding.md), any of the 30% pool reserve not needed to match the curve's last price. That's counted separately from the creator's burns.

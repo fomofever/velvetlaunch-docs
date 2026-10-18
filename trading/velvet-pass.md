@@ -18,10 +18,8 @@ A line counts when you first claim its tokens, if:
 
 - you put in at least **0.1 SOL** (refunded SOL doesn't count),
 - the launch went ahead (cancelled lines don't count),
-- it was a real launch: at least **10 wallets** and **10 SOL** in its line, and
+- it was a real launch, with enough wallets and SOL in its line (so throwaway coins don't count), and
 - it isn't your own coin.
-
-The FAQ on the Rules page shows the numbers in force right now.
 
 ## Flips
 

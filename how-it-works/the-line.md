@@ -30,7 +30,7 @@ A big line opens at a much higher price than it paid, so without this a full lin
 
 ## A full line can't bond in the first minute
 
-While the [cover charge](cover-charge.md) is on, nothing can finish the bonding curve. If a line is big enough to fill the whole curve, it stops just short of it and the unused SOL is refunded to everyone in the line, pro-rata, with the same **Claim**. A buy that would finish the curve during that minute is refused (the trade box tells you to buy a little less or wait). Once the cover charge is over, the next buy completes the curve and the coin bonds as usual. This way nobody can skip the cover charge by moving the coin to Raydium straight away.
+While the [cover charge](cover-charge.md) is on, nothing can finish the bonding curve. If a line is big enough to fill the whole curve, it stops just short of it and the unused SOL is refunded to everyone in the line, pro-rata, with the same **Claim**. A buy that would finish the curve during that minute is refused (the trade box tells you to buy a little less or wait). Once the cover charge is over, the next buy completes the curve and the coin bonds as usual. This way nobody can skip the cover charge by bonding the coin straight away.
 
 ## Right after the doors open
 

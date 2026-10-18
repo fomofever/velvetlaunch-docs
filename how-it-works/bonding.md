@@ -19,11 +19,11 @@ Anyone can send this transaction once the curve is full, and Velvet does it auto
 
 ## Velvet Pools
 
-Velvet Pools is Velvet's own swap program, built for bonded Velvet coins. It's based on Raydium's open-source CP-Swap (constant product, the same `x × y = k` pricing), with everything a launchpad pool doesn't need taken out:
+Velvet Pools is Velvet's own swap program, built for bonded Velvet coins. It uses constant-product pricing (`x × y = k`), with everything a launchpad pool doesn't need taken out:
 
 * **No LP tokens and no withdraw.** There's nothing to lock or unlock, because the liquidity can never leave the pool, by the creator, by Velvet, or by anyone.
 * **Only Velvet can open a pool**, one per coin, at an address fixed by the coin's mint. Nobody can set up a fake pool in advance to block or front-run bonding.
-* **Plain tokens only**: Token-2022 coins whose only extras are their name, ticker and logo link (or classic SPL for coins made before Velvet switched), never frozen, with no transfer fees or hooks.
+* **Plain tokens only**: never frozen, with no transfer fees or hooks.
 
 Its source is public alongside the launchpad's, and the deployed program is a [verified build](../security/verified-build.md).
 
@@ -31,7 +31,7 @@ Its source is public alongside the launchpad's, and the deployed program is a [v
 
 * The trade box on the coin page trades through the pool. Nothing changes for you; [slippage](../trading/buying-and-selling.md) works the same.
 * The **3% wallet limit lifts**.
-* Wallets and apps can only trade the coin once they support Velvet Pools, so the coin page is the place to trade it.
+* Trade it from the coin page or [Velvet Swap](../trading/swap.md).
 
 ## Pool fees
 
@@ -44,8 +44,4 @@ Every pool trade pays **0.35%**, taken in SOL:
 | 0.05% | **The creator's wallet**, paid automatically |
 | 0.05% | Velvet |
 
-Velvet collects the creator, holder and Velvet shares regularly; the program does the split.
-
-## Coins that bonded to Raydium
-
-Coins that bonded before Velvet Pools stay in their **Raydium** CPMM pools, with **100% of the LP locked** in Raydium's own locker, permanently. Their share of Raydium's 0.25% trading fee is still collected and split **25% creator · 25% holders · 50% Velvet**, and a quarter of Velvet's part is paired with the coin side and **deposited back into the pool**, with those LP tokens burned (shown as **Fees → liquidity** in the trades list).
+The program does the split.

@@ -30,10 +30,9 @@ Some limits are written into the program's code, so no config change can ever go
 | Line length | 3,000 slots at most (about 20 minutes) |
 | Cover charge length | 3,000 slots at most |
 | Wallet limit while bonding | 3% of supply, for line commits, opening buys and curve buys (fixed in code) |
-| Fees sent back into the pool | a quarter of Velvet's pool-fee share (fixed in code) |
 | Timelock | 30 days at most |
 | Big-line unlock | at least 10% claimable at open, the rest over at most 7 days |
-| Velvet Pass rules and the VIP discount | fixed in code |
+| VIP discount | fixed in code |
 | Permanent storage fee | 0.001 SOL per coin at most (currently 0.0001 SOL). Because it's capped this low, the admin can change it without the timelock |
 
 ## What a change affects
@@ -56,5 +55,5 @@ The **How it works** page on velvetlaunch.xyz always shows the live values, read
 | Creator lock | up to 30 days |
 | Curve | 70% of supply, bonds at ≈100 SOL |
 | Bonding fee | 0.25 SOL |
-| Pool fee split | 25% creator · 25% holders · 50% Velvet |
+| Pool fee | 0.35%: 0.20% stays in the pool · 0.05% each to holders, the creator and Velvet (fixed in code) |
 | Big-line unlock | lines over 30 SOL: 25% at open, the rest over 1 hour |

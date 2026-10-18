@@ -1,5 +1,5 @@
 ---
-description: The program, Velvet Pools, config and Raydium addresses Velvet uses.
+description: The program, Velvet Pools and config addresses Velvet uses.
 ---
 
 # Addresses
@@ -23,19 +23,3 @@ The programs will use the same addresses on mainnet. Each coin's pool address is
 ## Coin addresses
 
 Every coin's mint address is created by the program, and every one ends in **`vLvt`**, for example `6kA4…vLvt`. The program enforces this: it refuses to create a coin at any address that doesn't end in `vLvt`. To be sure a coin was launched on Velvet, open it on velvetlaunch.xyz: the site only lists coins created by Velvet's program.
-
-## Raydium (mainnet, coins that bonded earlier)
-
-| | Address |
-| --- | --- |
-| CPMM program | `CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C` |
-| AMM config (0.25% fee) | `D4FPEruKEHrG5TenZ2mpDGEfu1iUvTiqBxvpU8HLBvC2` |
-| LP locker | `LockrWmn6K5twhz3y9w1dQERbmgSaRkfnTeTKbpofwE` |
-
-## Raydium (devnet, coins that bonded earlier)
-
-| | Address |
-| --- | --- |
-| CPMM program | `DRaycpLY18LhpbydsBWbVJtxpNv9oXPgjRSfpF2bWpYb` |
-| AMM config | `5MxLgy9oPdTC3YgkiePHqr3EoCRD9uLVYRQS2ANAs7wy` |
-| LP locker | `DRay25Usp3YJAi7beckgpGUC7mGJ2cR1AVPxhYfwVCUX` |

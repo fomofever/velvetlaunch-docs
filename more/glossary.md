@@ -36,13 +36,13 @@ description: The words used on Velvet, in plain terms.
 
 **Line price**: the single price everyone in the opening line paid.
 
-**LP lock**: a bonded coin's liquidity can never be withdrawn. Velvet Pools has no withdraw at all; for coins that bonded to Raydium, the LP tokens are locked forever in Raydium's locker.
+**LP lock**: a bonded coin's liquidity can never be withdrawn. Velvet Pools has no withdraw at all.
 
 **Velvet Pools**: Velvet's own swap program, where coins trade after they bond.
 
 **Ready to launch**: a free launch waiting for its first buyer.
 
-**Token-2022**: Solana's newer token program. Every Velvet coin is a Token-2022 token with its name, ticker and logo link stored in the coin itself and locked; no transfer fees, hooks or freeze. Coins made before Velvet switched are classic SPL tokens and work the same.
+**Token-2022**: Solana's newer token program. Every Velvet coin is a Token-2022 token with its name, ticker and logo link stored in the coin itself and locked; no transfer fees, hooks or freeze.
 
 **Timelock**: the wait between proposing a settings change and applying it (48 hours on mainnet). See [Settings and the timelock](../security/timelock.md).
 

@@ -32,7 +32,7 @@ Yes. Choose **Free launch** on the launch page and just sign a message. Your coi
 
 <summary>Can the creator rug the liquidity?</summary>
 
-No. Bonded coins trade in a Velvet Pools pool, which has no way to withdraw liquidity at all (coins that bonded earlier have 100% of their Raydium LP locked in Raydium's own locker, permanently). Before that, the SOL sits in the program's curve, which only pays out through trades by its rules.
+No. Bonded coins trade in a Velvet Pools pool, which has no way to withdraw liquidity at all. Before that, the SOL sits in the program's curve, which only pays out through trades by its rules.
 
 </details>
 
@@ -48,7 +48,7 @@ No. Every coin has a fixed 1B supply, and the mint authority is switched off in 
 
 <summary>What kind of token is a Velvet coin?</summary>
 
-A **Token-2022** token, Solana's newer token standard, which every major wallet and explorer supports. Its name, ticker and logo link are stored in the coin itself and locked, and it has no transfer fees, no transfer hooks and no freeze. It also makes launching cheaper: the setup is about 0.01 SOL. Coins made before Velvet switched are classic SPL tokens and keep working exactly the same.
+A **Token-2022** token, Solana's newer token standard, which every major wallet and explorer supports. Its name, ticker and logo link are stored in the coin itself and locked, and it has no transfer fees, no transfer hooks and no freeze. It also makes launching cheaper: the setup is about 0.01 SOL.
 
 </details>
 

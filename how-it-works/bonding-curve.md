@@ -15,7 +15,7 @@ Every coin has a fixed supply of **1,000,000,000 tokens**, split in two at launc
 | **70%** | 700,000,000 | Sold on the bonding curve (including the line and any opening buy) |
 | **30%** | 300,000,000 | Kept aside for the coin's pool when it bonds |
 
-When all 700M curve tokens are sold, about **100 SOL** has gone in and the coin [bonds](bonding-to-raydium.md). The 30% goes into the pool with that SOL, at exactly the price where the curve ended (any extra is burned), so there's no jump when it moves.
+When all 700M curve tokens are sold, about **100 SOL** has gone in and the coin [bonds](bonding.md). The 30% goes into the pool with that SOL, at exactly the price where the curve ended (any extra is burned), so there's no jump when it moves.
 
 ## The shape of the curve
 

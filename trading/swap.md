@@ -11,11 +11,4 @@ description: Swap any coin with SOL or with another coin.
 
 Pick the coins, type an amount, and the box shows what you'll get, the **minimum received** after [slippage](buying-and-selling.md#slippage), the price impact, the pool fee and the route. If the price moves past your slippage before the swap lands, it's cancelled and nothing is spent.
 
-## Which pools
-
-| Pool | Fee | Shown as |
-| --- | --- | --- |
-| Velvet Pools (coins bonding now) | 0.35% | the coin's logo |
-| Raydium (coins that bonded earlier) | 0.25% | the coin's logo with a small Raydium badge |
-
-A coin-to-coin swap pays both pools' fees, one per leg. Every pool's liquidity is locked for good: see [Bonding](../how-it-works/bonding-to-raydium.md).
+Each pool trade pays the 0.35% [pool fee](../how-it-works/bonding.md#pool-fees); a coin-to-coin swap pays it once per leg. Every pool's liquidity is locked for good: see [Bonding](../how-it-works/bonding.md).
