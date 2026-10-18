@@ -104,7 +104,7 @@ Yes, from the coin page (🔥 Burn tokens under the trade box). Burned tokens ar
 
 <summary>My wallet won't connect. What do I do?</summary>
 
-Make sure the wallet is set to the same network as the site (devnet, for now), then refresh the page and try again. If a browser extension wallet still won't connect, try another supported wallet or your phone's wallet app.
+Make sure the wallet is set to the same network as the site (devnet, for now), then refresh the page and try again. If a browser extension wallet still won't connect, try another supported wallet. On a phone, tap **Connect wallet** and pick **Open in Phantom**, **Solflare** or **Backpack**: Velvet opens inside that wallet's app, where connecting works.
 
 </details>
 
