@@ -9,8 +9,10 @@ Velvet runs on a Solana program (a smart contract). These rules are written into
 ## The coin
 
 * **The program deploys every coin.** It creates the mint, writes the name and logo link on-chain, and mints exactly **1,000,000,000** tokens.
+* **The name, ticker and logo link are locked.** They're stored in the coin itself and nobody, not the creator and not Velvet, can change them.
 * **No more can ever be minted.** The mint authority is switched off in the same transaction that creates the coin.
 * **No freeze.** The coin has no freeze authority, so nobody can lock your tokens.
+* **Nothing hidden in the token.** Coins are Token-2022 tokens whose only extras are their name, ticker and logo link: no transfer fees, no transfer hooks, no permanent delegate. Velvet Pools refuses any coin with other extras.
 
 ## The launch
 

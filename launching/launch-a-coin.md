@@ -15,7 +15,7 @@ Go to **Launch** at the top of the site. Everything is on one form, with a live 
 * **Logo**: PNG, JPEG or WebP, up to 2 MB. Square art looks best.
 * **Description and links** (optional): a line or two about the coin, plus a website, X and Telegram link.
 
-Velvet stores the logo and metadata permanently on Arweave and writes the name, ticker and metadata link on-chain. Your coin's mint address will end in **vLvt**, like every Velvet coin. If none is ready at that moment, the launch waits a few seconds for the next one.
+Velvet stores the logo and metadata permanently on Arweave and writes the name, ticker and metadata link into the coin itself, locked so nobody can change them (Velvet coins are [Token-2022](../more/glossary.md) tokens). Your coin's mint address will end in **vLvt**, like every Velvet coin. If none is ready at that moment, the launch waits a few seconds for the next one.
 
 ## 2. Choose how long the line runs
 
@@ -33,10 +33,10 @@ Set the least SOL the line has to raise, up to **100 SOL**. If the line ends bel
 
 <figure><img src="../.gitbook/assets/launch-mode.png" alt="Free launch or Instant launch" width="560"><figcaption><p>How it goes live</p></figcaption></figure>
 
-| | **Free launch** · no SOL needed | **Instant launch** · ≈0.022 SOL |
+| | **Free launch** · no SOL needed | **Instant launch** · ≈0.01 SOL |
 | --- | --- | --- |
 | What you do | Sign a message. No transaction. | Send the launch transaction. |
-| Cost to you | **0 SOL** | ≈0.022 SOL of account setup and 0.0001 SOL of permanent storage, plus any opening buy |
+| Cost to you | **0 SOL** | ≈0.01 SOL of account setup and 0.0001 SOL of permanent storage, plus any opening buy |
 | When the line starts | When the first buyer gets in line | Straight away |
 | Opening buy and lock | Not available | Available |
 | Expires | After 7 days if nobody opens it | Never |

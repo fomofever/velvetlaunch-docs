@@ -4,7 +4,7 @@ description: Launch a coin with no SOL. The first buyer puts it on-chain.
 
 # Free launches
 
-With a free launch you don't need any SOL. You **sign a message** with your wallet, and the coin waits on the board under **Ready to launch**. The first person to get in line puts it on-chain, pays its one-time setup (about 0.022 SOL, plus 0.0001 SOL for permanent Arweave storage of the logo and metadata) and starts the line.
+With a free launch you don't need any SOL. You **sign a message** with your wallet, and the coin waits on the board under **Ready to launch**. The first person to get in line puts it on-chain, pays its one-time setup (about 0.01 SOL, plus 0.0001 SOL for permanent Arweave storage of the logo and metadata) and starts the line.
 
 ## How it works
 

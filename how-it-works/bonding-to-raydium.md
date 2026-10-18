@@ -23,7 +23,7 @@ Velvet Pools is Velvet's own swap program, built for bonded Velvet coins. It's b
 
 * **No LP tokens and no withdraw.** There's nothing to lock or unlock, because the liquidity can never leave the pool, by the creator, by Velvet, or by anyone.
 * **Only Velvet can open a pool**, one per coin, at an address fixed by the coin's mint. Nobody can set up a fake pool in advance to block or front-run bonding.
-* **Classic SPL tokens only**, and the coin can never be frozen.
+* **Plain tokens only**: Token-2022 coins whose only extras are their name, ticker and logo link (or classic SPL for coins made before Velvet switched), never frozen, with no transfer fees or hooks.
 
 Its source is public alongside the launchpad's, and the deployed program is a [verified build](../security/verified-build.md).
 

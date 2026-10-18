@@ -24,7 +24,7 @@ Because bots are faster than people. With a line, being first is worthless: ever
 
 <summary>Can I launch with no SOL?</summary>
 
-Yes. Choose **Free launch** on the launch page and just sign a message. Your coin waits on the board until someone gets in line; their transaction puts it on-chain and pays the ≈0.022 SOL setup. Your signature only works for that exact coin, once, and expires after 7 days. See [Free launches](../launching/free-launches.md).
+Yes. Choose **Free launch** on the launch page and just sign a message. Your coin waits on the board until someone gets in line; their transaction puts it on-chain and pays the ≈0.01 SOL setup. Your signature only works for that exact coin, once, and expires after 7 days. See [Free launches](../launching/free-launches.md).
 
 </details>
 
@@ -41,6 +41,14 @@ No. Bonded coins trade in a Velvet Pools pool, which has no way to withdraw liqu
 <summary>Can more tokens be minted?</summary>
 
 No. Every coin has a fixed 1B supply, and the mint authority is switched off in the launch transaction.
+
+</details>
+
+<details>
+
+<summary>What kind of token is a Velvet coin?</summary>
+
+A **Token-2022** token, Solana's newer token standard, which every major wallet and explorer supports. Its name, ticker and logo link are stored in the coin itself and locked, and it has no transfer fees, no transfer hooks and no freeze. It also makes launching cheaper: the setup is about 0.01 SOL. Coins made before Velvet switched are classic SPL tokens and keep working exactly the same.
 
 </details>
 

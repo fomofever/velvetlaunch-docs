@@ -6,8 +6,8 @@ description: Every fee on Velvet, and where it goes.
 
 | When | Fee | Goes to |
 | --- | --- | --- |
-| **Launching a coin** | Free, or ≈0.022 SOL | Nobody. It's Solana's account rent. Free launch: the first buyer covers it. Instant launch: you cover it. |
-| **Permanent storage** | 0.0001 SOL, once per coin | Velvet's storage wallet, which buys the Arweave credits that store every coin's logo and metadata forever. Charged by the program in the same transaction as the setup: by the first buyer on a free launch, by you on an instant launch. On the site it's counted inside the ≈0.022 SOL setup figure rather than shown as its own line. |
+| **Launching a coin** | Free, or ≈0.01 SOL | Nobody. It's Solana's account rent. Free launch: the first buyer covers it. Instant launch: you cover it. |
+| **Permanent storage** | 0.0001 SOL, once per coin | Velvet's storage wallet, which buys the Arweave credits that store every coin's logo and metadata forever. Charged by the program in the same transaction as the setup: by the first buyer on a free launch, by you on an instant launch. On the site it's counted inside the ≈0.01 SOL setup figure rather than shown as its own line. |
 | **Joining a line** | 1%, taken when the line settles | ¼ to the coin's holders, ¾ to Velvet. Not taken if the line ends short. |
 | **Curve trade** (buy or sell) | 1% | ¼ (0.25%) to the coin's holders, ¾ (0.75%) to Velvet |
 | **Cover charge** right after the open | up to 50%, falling to 1% in about a minute | Everything above 1% goes to the coin's holders |
