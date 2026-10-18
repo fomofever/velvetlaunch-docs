@@ -9,7 +9,7 @@ When a coin's bonding curve sells out (about **100 SOL** raised), the coin **bon
 ## What happens
 
 1. The curve stops. No more curve trades.
-2. A one-time **1 SOL** bonding fee goes to Velvet, paid from the curve.
+2. A one-time **0.25 SOL** bonding fee goes to Velvet, paid from the curve.
 3. The program creates a Raydium CPMM pool with the rest of the curve's SOL and the **30% of the supply** kept aside for it, priced where the curve ended.
 4. **100% of the pool's LP is locked** in Raydium's own locker, permanently.
 
