@@ -43,4 +43,4 @@ Your streak, multiplier and the time of the next payout show on each coin page o
 
 ## Who runs the payouts
 
-Velvet sends the hourly payouts, and the program limits what a payout can do: it can only pay current holders of that coin, never more than the pool holds, never more than 4× a wallet's share of the supply, and at most once per payout window. It can't touch curve funds, refunds or locked liquidity. See [What you trust Velvet for](../security/trust.md).
+Velvet sends the hourly payouts, and the program limits what a payout can do: it can only pay current holders of that coin, never more than the pool holds, never more than 4× a wallet's share of the supply, each wallet at most once per payout, and at most one payout per window. It can't touch curve funds, refunds or locked liquidity. See [What you trust Velvet for](../security/trust.md).

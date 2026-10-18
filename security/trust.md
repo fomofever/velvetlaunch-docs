@@ -12,7 +12,7 @@ Velvet works out each holder's streak and sends the hourly payouts. The program 
 
 * only pay **current holders of that coin**;
 * never pay out **more than the coin's holder pool holds**;
-* never pay a wallet **more than 4× its share of the supply** for that payout;
+* never pay a wallet **more than 4× its share of the supply** for that payout, and pay each wallet **only once per payout**;
 * only pay **once per payout window**.
 
 A payout can never touch the bonding curve's SOL, refunds, or locked liquidity. Even if something went wrong, the most that could happen is a coin's holders being paid unevenly or late, within those caps.
