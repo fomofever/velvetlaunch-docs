@@ -38,6 +38,12 @@ Right after the doors open, the fee starts at **50%** and falls to the normal **
 
 Prices can move between the moment you press the button and the moment your trade lands. Slippage is the most the price can move against you before the trade is cancelled instead. The default is 3%.
 
+Tap **Slippage** in the trade box to change it: pick 0.5%, 1%, 3%, 5% or 10%, or type your own between 0.1% and 50%. Your choice is remembered in your browser.
+
+* **Above 10%**, the box warns you that you may get a much worse price.
+* **Below 0.5%**, it warns that the trade may fail if the price moves.
+* **Take initials out** never uses slippage: it always returns at least your exact initials, or doesn't go through.
+
 ## Your trades
 
 The **Trades** list on the coin page shows every buy and sell, plus the coin's milestones: launched, doors open, moved to Raydium, LP locked, 🔥 burns, and **Fees → liquidity** when [pool fees go back into the pool](../how-it-works/bonding-to-raydium.md#fees-back-into-liquidity). On the chart, trades by the creator are marked **D** and your own trades **Y**.

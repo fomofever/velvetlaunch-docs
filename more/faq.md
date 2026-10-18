@@ -144,3 +144,6 @@ All your buys count together. When what you hold is worth 2× what you still hav
 
 The dashed gold line is where the coin bonds; the green and red lines are your average entry and exit (fill prices). Turn them on or off under **Indicators**. See [The chart](../trading/the-chart.md).
 
+## Can I change my slippage?
+
+Yes. Tap **Slippage** in the trade box and pick 0.5%, 1%, 3% (the default), 5% or 10%, or type your own between 0.1% and 50%. It's remembered in your browser. See [Buying and selling](../trading/buying-and-selling.md#slippage).
