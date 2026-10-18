@@ -1,10 +1,10 @@
 ---
-description: Swap any bonded coin with SOL or with another bonded coin.
+description: Swap any coin with SOL or with another coin.
 ---
 
 # Velvet Swap
 
-**Swap** (in the menu) trades any coin that has bonded, straight through its locked pool.
+**Swap** (in the menu) swaps any coin, straight through its locked pool. Coins show up there once their curve sells out.
 
 * **SOL to a coin, or a coin to SOL**: one swap through the coin's pool.
 * **Coin to coin**: the first coin is sold for SOL and that SOL buys the second coin, in **one transaction**. Either both legs go through or neither does.
