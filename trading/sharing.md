@@ -10,21 +10,23 @@ Press **Share** on any coin page to get a **live card** for the coin: its logo, 
 
 ## Three sizes
 
+Every card is shared, saved and copied in **4K**.
+
 | Tab | Size | For |
 | --- | --- | --- |
-| **X / link** | 1200 × 630 | X posts. It also shows automatically whenever someone posts the coin's link. |
-| **IG post** | 4:5 | Instagram feed posts |
-| **Story / TikTok** | 9:16 | Instagram Stories, Reels and TikTok |
+| **X / link** | 3840 × 2016 | X, Telegram and Discord posts. A smaller copy also shows automatically whenever someone posts the coin's link. |
+| **IG post** | 3072 × 3840 (4:5) | Instagram feed posts |
+| **Story / TikTok** | 2160 × 3840 (9:16) | Instagram Stories, Reels and TikTok |
 
 ## Posting
 
-* **Post on X** opens the X app on your phone, or x.com on a computer, with the coin's link ready to post. X shows the card under the link on its own.
-* **Download image** saves the card. On a phone, you can also send it straight to an app from your phone's share sheet.
+* **Post on X** posts the card itself, not just the link:
+  * **On a phone**, it opens your share sheet with the image, the text and the link attached. Pick X, or Instagram, TikTok or Telegram.
+  * **On a computer**, it copies the image and opens x.com with the text and link ready. Paste the image into the post with Ctrl+V (⌘V on a Mac).
+* **Share image…** opens the share sheet with the image, where your device supports it.
+* **Copy image** copies the 4K image, to paste into any app.
+* **Download 4K** saves the card.
 * **Copy link** copies the coin's share link (`velvetlaunch.xyz/t/…`).
-
-{% hint style="info" %}
-Instagram and TikTok don't show link previews, so save the image and post it from the app.
-{% endhint %}
 
 ## Leaderboard cards
 
