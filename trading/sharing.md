@@ -34,4 +34,4 @@ Press **Share** above the board or on the **Pools** page to post a live leaderbo
 * **On Pools:** Deepest pools, Top pools by 24h volume, Just bonded, Top creators.
 * **Velvet in numbers:** total traded, coins launched, SOL paid to holders, coins bonded and liquidity locked.
 
-Each comes in the same three sizes as coin cards (X / link, Instagram post, Story / TikTok), and the numbers are current every time the card is made. The link opens the board or the Pools page.
+Top movers, Trending, Biggest runs, Top pools and Top creators also come for **24h**, **this week**, **this month** or **all time** (whichever fit). Each comes in the same three sizes as coin cards (X / link, Instagram post, Story / TikTok), and the numbers are current every time the card is made. The link opens the board or the Pools page.
