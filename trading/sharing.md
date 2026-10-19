@@ -33,7 +33,7 @@ Every card is shared, saved and copied in **4K**.
 Press **Share** above the board or on the **Pools** page to post a live leaderboard instead of a single coin:
 
 * **On the board:** Top movers, Trending, Biggest runs, New launches, In line now.
-* **On Pools:** Deepest pools, Top pools by 24h volume, Just bonded, Top creators.
+* **On Pools:** Deepest pools, Top pools by volume, Just bonded, Top creators.
 * **Velvet in numbers:** total traded, coins launched, SOL paid to holders, coins bonded and liquidity locked.
 
-Top movers, Trending, Biggest runs, Top pools and Top creators also come for **24h**, **this week**, **this month** or **all time** (whichever fit). Each comes in the same three sizes as coin cards (X / link, Instagram post, Story / TikTok), and the numbers are current every time the card is made. The link opens the board or the Pools page.
+Top movers, Trending, Biggest runs, Top pools and Top creators also come for **24h**, **this week**, **this month** or **all time** (whichever fit). Each comes in the same three sizes as coin cards (X / link, Instagram post, Story / TikTok), and the numbers are current every time the card is made. The link opens the same list on the board or the Pools page, with the same period selected. Velvet in numbers opens the Revenue page.

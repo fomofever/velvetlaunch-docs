@@ -8,6 +8,25 @@ The home page lists every coin on Velvet. At the top, **Trending** ranks coins b
 
 <figure><img src="../.gitbook/assets/board-grid.png" alt="Trending and the coin board"><figcaption><p>Trending and the board</p></figcaption></figure>
 
+## Lists
+
+The tabs above the board sort it different ways:
+
+| Tab | Shows |
+| --- | --- |
+| **Market cap** | Every live coin, biggest first |
+| **Top movers** | Coins whose price rose the most, over 24h, this week or this month |
+| **Trending** | Coins with the most trading volume, over 24h, this week, this month or all time |
+| **New** | The latest launches |
+| **In line** | Coins whose line is open now |
+| **Biggest runs** | The highest climbs from the line price to the all-time high, over all time or for coins launched this week or this month |
+| **Active** | Coins by their latest trade |
+| **Almost bonded** | Coins closest to selling out their curve |
+| **Bonded** | Coins trading on their own pool |
+| **★ Watchlist** | The coins you starred |
+
+These are the same lists as the [leaderboard cards](sharing.md#leaderboard-cards), so a card's link opens the matching tab.
+
 ## Coin states
 
 | State | What it means |
