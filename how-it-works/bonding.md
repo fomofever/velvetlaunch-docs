@@ -9,8 +9,8 @@ When a coin's bonding curve sells out (about **100 SOL** raised), the coin **bon
 ## What happens
 
 1. The curve stops. No more curve trades.
-2. A one-time **0.25 SOL** bonding fee goes to Velvet, paid from the curve.
-3. The program creates the coin's Velvet Pools pool with the rest of the curve's SOL and the **30% of the supply** kept aside for it, **priced exactly where the curve ended**. Any of that 30% not needed to match the curve's last price is **burned**, so nobody can buy cheaper right after bonding.
+2. A one-time **0.01 SOL** bonding fee goes to Velvet, paid from the curve.
+3. The program creates the coin's Velvet Pools pool with the rest of the curve's SOL (less about 0.015 SOL that pays the new pool's account rent) and the **30% of the supply** kept aside for it, **priced exactly where the curve ended**. Any of that 30% not needed to match the curve's last price is **burned**, so nobody can buy cheaper right after bonding.
 4. The liquidity is **locked forever**: Velvet Pools has no way to withdraw it.
 
 Anyone can send this transaction once the curve is full, and Velvet does it automatically within moments. The program decides where everything goes; whoever sends the transaction can't change it. A coin can't bond while its [cover charge](cover-charge.md) is still on.
