@@ -25,6 +25,8 @@ The tabs above the board sort it different ways:
 | **Bonded** | Coins trading on their own pool |
 | **★ Watchlist** | The coins you starred |
 
+Every list sorts both ways: tap the order button (for example **Biggest first** / **Smallest first**), the open tab again, or the **Change** and **Market cap** column headings. Flipped, **Top movers** shows the biggest drops. Your choice is remembered in your browser.
+
 These are the same lists as the [leaderboard cards](sharing.md#leaderboard-cards), so a card's link opens the matching tab.
 
 ## Coin states
