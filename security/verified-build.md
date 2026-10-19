@@ -19,8 +19,8 @@ A **verified build** proves that the program deployed on Solana was built from e
 | Program ID | `8f9XtMzn9J8vapxoLoypKUjNta64jhjfr18WMVCn5yAk` | `VPkPeiAg7LheTtDdBByCmXewabF9zF6yK5YYLmfPjWb` |
 | Library name | `fairlaunch` | `velvet_pools` |
 | Network | Solana devnet | Solana devnet |
-| Source commit | [`22d7b74`](https://github.com/fomofever/velvet-program/commit/22d7b743b3f8ff0f32df9c20e0be3996221590eb) | [`057f0b0`](https://github.com/fomofever/velvet-program/commit/057f0b0241e34853f6a94424752efd42dd318e27) |
-| Executable hash | `b93736a849e39fd8dcc5aa9477505f01ce65378da5bbca9e906971598f445e74` | `b6c934233e852de5ed57e96459b284450a27aa256adfbd1eb4aeb9f5a052824d` |
+| Source commit | [`041fcff`](https://github.com/fomofever/velvet-program/commit/041fcff986bb50a2c44b96424a643e0cc6ce2a9e) | [`057f0b0`](https://github.com/fomofever/velvet-program/commit/057f0b0241e34853f6a94424752efd42dd318e27) |
+| Executable hash | `3f252ac685ad8a70145633331b0cd52c8cb62fb396e7d26375bc91b450472928` | `b6c934233e852de5ed57e96459b284450a27aa256adfbd1eb4aeb9f5a052824d` |
 | On-chain verification record | `RtuQouMuxb8P8h75L5GFHAB7ocKETzPK4u1XZ96yEty` | written by the same process |
 
 On mainnet, the build will also be submitted to OtterSec's public verifier, which gives the program a **Verified** badge on Solana explorers.
