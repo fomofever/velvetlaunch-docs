@@ -25,3 +25,13 @@ Press **Share** on any coin page to get a **live card** for the coin: its logo, 
 {% hint style="info" %}
 Instagram and TikTok don't show link previews, so save the image and post it from the app.
 {% endhint %}
+
+## Leaderboard cards
+
+Press **Share** above the board or on the **Pools** page to post a live leaderboard instead of a single coin:
+
+* **On the board:** Top movers, Trending, Biggest runs, New launches, In line now.
+* **On Pools:** Deepest pools, Top pools by 24h volume, Just bonded, Top creators.
+* **Velvet in numbers:** total traded, coins launched, SOL paid to holders, coins bonded and liquidity locked.
+
+Each comes in the same three sizes as coin cards (X / link, Instagram post, Story / TikTok), and the numbers are current every time the card is made. The link opens the board or the Pools page.
